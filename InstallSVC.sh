@@ -17,6 +17,10 @@ echo "Instalando REDIS"
 sudo apt-get -y install redis
 echo "Instalando POSTGRES"
 sudo apt-get -y install postgresql
+echo "Instalando SSMTP"
+sudo apt-get -y install ssmtp
+sudo rm -rf /etc/ssmtp/ssmtp.conf
+sudo cp ./ssmtp.conf /etc/ssmtp/
 echo "Instalando Serviços"
 sudo cp ./ServerRecoveryLinux/ServerRecoveryLinux.service /etc/systemd/system/
 sudo cp ./AuthorizationLinux/AuthorizationLinux.service /etc/systemd/system/
