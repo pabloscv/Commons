@@ -1,42 +1,42 @@
 #!/bin/bash
 clear
-echo "Atualizando o sistema"
+echo "^[[32m^Atualizando o sistema[[0m"
 sudo apt-get -y update
 sudo apt -y full-upgrade
 sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y update
-echo "Instalando ASP.NET Core 6"
+echo "^[[32m^Instalando ASP.NET Core 6[[0m"
 sudo dpkg -i packages-microsoft-prod.deb
 sudo apt-get -y update
 sudo apt-get install -y apt-transport-https
 sudo apt-get -y update
 sudo apt-get install -y dotnet-sdk-6.0
 sudo dotnet dev-certs https --trust
-echo "Instalando REDIS"
+echo "^[[32m^Instalando REDIS[[0m"
 sudo apt-get -y install redis
-echo "Instalando POSTGRES"
+echo "^[[32m^Instalando POSTGRES[[0m"
 sudo apt-get -y install postgresql
-echo "Instalando SSMTP"
+echo "^[[32m^Instalando SSMTP[[0m"
 sudo apt-get -y install ssmtp
 sudo rm -rf /etc/ssmtp/ssmtp.conf
 sudo cp ./ssmtp.conf /etc/ssmtp/
-echo "Instalando Serviços"
+echo "^[[32m^Instalando Serviços[[0m"
 sudo cp ./ServerRecoveryLinux/ServerRecoveryLinux.service /etc/systemd/system/
 sudo cp ./AuthorizationLinux/AuthorizationLinux.service /etc/systemd/system/
 sudo cp ./SettingsDriverLinux/SettingsDriverLinux.service /etc/systemd/system/
 sudo cp ./SettingsWebInterfaceLinux/SettingsWebInterfaceLinux.service /etc/systemd/system/
-echo "Registrando Serviços"
+echo "^[[32m^Registrando Serviços[[0m"
 sudo systemctl enable ServerRecoveryLinux.service
 sudo systemctl enable AuthorizationLinux.service
 sudo systemctl enable SettingsDriverLinux.service
 sudo systemctl enable SettingsWebInterfaceLinux.service
-echo "Iniciando Serviços"
+echo "^[[32m^Iniciando Serviços[[0m"
 sudo service SettingsWebInterfaceLinux start
 sudo service SettingsDriverLinux start
 sudo service ServerRecoveryLinux start
 sudo service AuthorizationLinux start
-echo "Instalando Apache2"
+echo "^[[32m^Instalando Apache2[[0m"
 sudo apt-get -y install apache2
 sudo service apache2 stop
 sudo a2enmod headers
@@ -49,6 +49,6 @@ sudo a2dissite 000-default.conf
 sudo cp ./ProxyReverse.conf /etc/apache2/sites-available/
 sudo a2ensite ProxyReverse.conf
 sudo service apache2 start
-echo "Instalação concluída"
-echo "** Lembre-se de terminar a configuração do arquivo /etc/ssmtp/ssmtp.conf"
+echo "^[[32m^Instalação concluída[[0m"
+echo "^[[32m^** Lembre-se de terminar a configuração do arquivo /etc/ssmtp/ssmtp.conf[[0m"
 echo ""
