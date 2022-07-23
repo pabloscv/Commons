@@ -35,7 +35,7 @@ echo "Iniciando Serviços"
 sudo service SettingsWebInterfaceLinux start
 sudo service SettingsDriverLinux start
 sudo service ServerRecoveryLinux start
-sudo service SettingsWebInterfaceLinux start
+sudo service AuthorizationLinux start
 echo "Instalando Apache2"
 sudo apt-get -y install apache2
 sudo service apache2 stop
@@ -49,5 +49,6 @@ sudo a2dissite 000-default.conf
 sudo cp ./ProxyReverse.conf /etc/apache2/sites-available/
 sudo a2ensite ProxyReverse.conf
 sudo service apache2 start
-sudo service apache2 status
-
+echo "Instalação concluída"
+echo "** Lembre-se de terminar a configuração do arquivo /etc/ssmtp/ssmtp.conf"
+echo ""
