@@ -3,7 +3,6 @@
 - 👋 Olá sou Pablo Cavalcante
 - 👀 Estou criando esse repositório para guardar ideias e criações
 - 🌱 Atualmente estou estudando as tecnologias de dados
-- 💞️ Atualmente sou colaborador do Laboratório de Tecnologia Jurídica da OAB/MS
 - 📫 Para falar comigo envie um email para pabloscv@gmail.com
 
 <!---
