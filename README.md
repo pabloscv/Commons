@@ -5,9 +5,9 @@
 - 🌱 Atualmente estou estudando as tecnologias de dados
 - 📫 Para falar comigo envie um email para pabloscv@gmail.com
 
-#Instalação
+** Instalação
 
-##Instalação do Postgresql
+** Instalação do Postgresql
 * Mude a senha do usuário postgres. sudo passwd postgres
 * Acesse o usuário. su postgres
 * Volte na home. cd ~
@@ -19,7 +19,7 @@
 * Caso queira acessar o banco de dados fora do servidor então configure o arquivo. pg_hba.conf, utilize IPV4, host all all 0.0.0.0/0 md5
 * Caso queira acessar o banco de dados fora do servidor então configure o aqruivo. postgresql, utilize, listen_addresses = '*'
 
-##Instalação Ubuntu 22LTS ou >
+** Instalação Ubuntu 22LTS ou >
 * Clone o repositório na pasta /var/publish
 * Execute o comando chmod a+x InstallSVC.sh
 * Execute o arquivo /var/publish/Commons/InstallSVC.sh
