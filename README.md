@@ -1,14 +1,4 @@
-Authorization
-[![.NET](https://github.com/pabloscv/Patty-Authorization-API/actions/workflows/dotnet.yml/badge.svg)](https://github.com/pabloscv/Patty-Authorization-API/actions/workflows/dotnet.yml)
-
-Server Recovery
-[![.NET](https://github.com/pabloscv/ServerRecovery/actions/workflows/dotnet.yml/badge.svg)](https://github.com/pabloscv/ServerRecovery/actions/workflows/dotnet.yml)
-
-Settings Web Interface
-[![.NET](https://github.com/pabloscv/SettingsDriverCore/actions/workflows/dotnet.yml/badge.svg)](https://github.com/pabloscv/SettingsDriverCore/actions/workflows/dotnet.yml)
-
-Settings Driver
-[![.NET](https://github.com/pabloscv/SettingsDriver/actions/workflows/dotnet.yml/badge.svg)](https://github.com/pabloscv/SettingsDriver/actions/workflows/dotnet.yml)
+[![.NET](https://github.com/pabloscv/Patty-Authorization-API/actions/workflows/dotnet.yml/badge.svg)](https://github.com/pabloscv/Patty-Authorization-API/actions/workflows/dotnet.yml) [![.NET](https://github.com/pabloscv/ServerRecovery/actions/workflows/dotnet.yml/badge.svg)](https://github.com/pabloscv/ServerRecovery/actions/workflows/dotnet.yml) [![.NET](https://github.com/pabloscv/SettingsDriverCore/actions/workflows/dotnet.yml/badge.svg)](https://github.com/pabloscv/SettingsDriverCore/actions/workflows/dotnet.yml) [![.NET](https://github.com/pabloscv/SettingsDriver/actions/workflows/dotnet.yml/badge.svg)](https://github.com/pabloscv/SettingsDriver/actions/workflows/dotnet.yml)
 
 - 👋 Olá sou Pablo Cavalcante
 - 👀 Estou criando esse repositório para guardar ideias e criações
