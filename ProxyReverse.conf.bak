@@ -1,7 +1,8 @@
+#SE FOR HTTPS - TROQUE DE 80 PARA 443
 <VirtualHost *:80>
-	#ServerName [SITE].com.br
-    	#ServerAlias [SITE].com.br
-	#ServerAdmin [RESPONSAVEL]@gmail.com
+	#ServerName [SITE SEM WWW]
+    	#ServerAlias [SITE SEM WWW]
+	#ServerAdmin [EMAIL DO RESPONSAVEL]
 
 	SSLProxyEngine on
 	SSLProxyVerify none 
@@ -13,9 +14,9 @@
 	SSLProtocol all -SSLv3 -TLSv1 -TLSv1.1
     	SSLCipherSuite ALL:!ADH:!EXPORT:!SSLv2:!RC4+RSA:+HIGH:+MEDIUM:!LOW:!RC4
 
-	#SSLCertificateFile /etc/apache2/rsa/certificado.crt
-	#SSLCertificateKeyFile /etc/apache2/rsa/chave.key
-	#SSLCACertificateFile /etc/apache2/rsa/certificado_ca.ca-bundle
+	#SSLCertificateFile /etc/apache2/rsa/zboard_digital.crt
+	#SSLCertificateKeyFile /etc/apache2/rsa/zboard.digital.key
+	#SSLCACertificateFile /etc/apache2/rsa/zboard_digital.ca-bundle
 	
 	RequestHeader set X-Forwarded-Proto https
 	RequestHeader set X-Forwarded-Port 443
@@ -33,8 +34,8 @@
 	ProxyPreserveHost On
 	ProxyRequests Off
 
-	ProxyPass /emailtest/ https://127.0.0.1:8299/
-	ProxyPassReverse /emailtest/ https://127.0.0.1:8299/
+	#[PATHS]
+	#[FIM_PATHS]
 
 	ProxyPass /settwebi/ https://127.0.0.1:8230/
 	ProxyPassReverse /settwebi/ https://127.0.0.1:8230/
@@ -42,15 +43,15 @@
 	ProxyPass /authorization/ https://127.0.0.1:8221/
 	ProxyPassReverse /authorization/ https://127.0.0.1:8221/
 
-	ProxyPass / https://127.0.0.1:8400/
-	ProxyPassReverse / https://127.0.0.1:8400/
+	ProxyPass / https://127.0.0.1:8200/
+	ProxyPassReverse / https://127.0.0.1:8200/
 
-	ErrorLog ${APACHE_LOG_DIR}/error.log
-	CustomLog ${APACHE_LOG_DIR}/access.log combined
+	ErrorLog ${APACHE_LOG_DIR}/proxyreverso_error.log
+	CustomLog ${APACHE_LOG_DIR}/proxyreverso_access.log combined
 </VirtualHost>
 
 
-#REDIRECIONA PARA HTTPS SEMPRE
+#REDIRECIONAMENTO HTTPS SEMPRE
 
 #<VirtualHost *:80>
 #   ServerName [SITE SEM WWW]
@@ -58,6 +59,6 @@
 #</VirtualHost>
 
 #<VirtualHost *:80>
-#   ServerName www.shaenkan.com.br
-#   Redirect permanent / http://shaenkan.com.br/
+#   ServerName [SITE COM WWW]
+#   Redirect permanent / https://[SITE]/
 #</VirtualHost>
