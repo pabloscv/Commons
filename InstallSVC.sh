@@ -14,10 +14,21 @@ sudo apt-get -y autoremove
 sudo apt-get -y update
 sudo apt-get -y net-tools
 clear
+echo -e "\e[32m Instalando Apache2 \e[0m"
+sudo apt-get -y install apache2
+sudo a2enmod headers
+sudo a2enmod ssl
+sudo a2enmod proxy
+sudo a2enmod proxy_balancer
+sudo a2enmod proxy_http
+sudo a2enmod http2
 echo -e "\e[32m Instalando ASP.NET Core 6 \e[0m"
 sudo apt-get install -y apt-transport-https
 sudo apt-get install -y dotnet-sdk-6.0
+sudo cd ./SettingsWebInterfaceLinux
+sudo dotnet dev-certs https --clean
 sudo dotnet dev-certs https --trust
+sudo cd ..
 echo -e "\e[32m Instalando REDIS \e[0m"
 sudo apt-get -y install redis
 echo -e "\e[32m Instalando POSTGRES \e[0m"
@@ -42,14 +53,6 @@ sudo service SettingsWebInterfaceLinux start
 sudo service SettingsDriverLinux start
 sudo service ServerRecoveryLinux start
 sudo service AuthorizationLinux start
-echo -e "\e[32m Instalando Apache2 \e[0m"
-sudo apt-get -y install apache2
-sudo a2enmod headers
-sudo a2enmod ssl
-sudo a2enmod proxy
-sudo a2enmod proxy_balancer
-sudo a2enmod proxy_http
-sudo a2enmod http2
 echo -e "\e[32m Configurando o Apache2 \e[0m"
 sudo a2dissite 000-default.conf
 sudo cp ./ProxyReverse.conf /etc/apache2/sites-available/
