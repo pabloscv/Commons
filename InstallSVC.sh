@@ -47,6 +47,9 @@ sudo cp ./ProxyReverse.conf /etc/apache2/sites-available/
 sudo a2ensite ProxyReverse.conf
 sudo service apache2 restart
 echo -e "\e[32m Instalação concluída \e[0m"
+sudo cp ./iplocal.sh /root/iplocal.sh
+sudo cp ./redis28.conf /root/redis28.conf
+sudo chmod a+x /root/iplocal.sh
 echo ""
 echo -e "\e[32m ** Lembre-se de terminar a configuração do arquivo /etc/ssmtp/ssmtp.conf \e[0m"
 echo ""
