@@ -13,6 +13,7 @@ sudo apt-get -y upgrade
 sudo apt-get -y autoremove
 sudo apt-get -y update
 sudo apt-get -y net-tools
+sudo apt-get -y libgdiplus
 clear
 echo -e "\e[32m Instalando Apache2 \e[0m"
 sudo apt-get -y install apache2
