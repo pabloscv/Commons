@@ -12,6 +12,7 @@ sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y autoremove
 sudo apt-get -y update
+sudo apt-get -y net-tools
 clear
 echo -e "\e[32m Instalando ASP.NET Core 6 \e[0m"
 sudo apt-get install -y apt-transport-https
@@ -30,6 +31,7 @@ sudo cp ./LinuxServices/ServerRecoveryLinux.service /etc/systemd/system/
 sudo cp ./LinuxServices/AuthorizationLinux.service /etc/systemd/system/
 sudo cp ./LinuxServices/SettingsDriverLinux.service /etc/systemd/system/
 sudo cp ./LinuxServices/SettingsWebInterfaceLinux.service /etc/systemd/system/
+sudo cp -r ./RecursosCompartilhados /var/publish/RecursosCompartilhados
 echo -e "\e[32m Registrando Serviços \e[0m"
 sudo systemctl enable ServerRecoveryLinux.service
 sudo systemctl enable AuthorizationLinux.service
