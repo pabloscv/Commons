@@ -10,12 +10,11 @@ sudo apt -y full-upgrade
 sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y update
-sudo apt-get autoremove
-sudo apt autoremove
+sudo apt-get -y autoremove
+sudo apt -y autoremove
 clear
 echo -e "\e[32m Instalando ASP.NET Core 6 \e[0m"
 sudo apt-get install -y apt-transport-https
-sudo apt-get -y update
 sudo apt-get install -y dotnet-sdk-6.0
 sudo dotnet dev-certs https --trust
 echo -e "\e[32m Instalando REDIS \e[0m"
