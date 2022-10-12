@@ -1,17 +1,17 @@
 #!/bin/bash
 clear
-echo -e "\e[32m Atualizando o sistema \e[0m"
 sudo rm -rf /etc/systemd/system/ServerRecoveryLinux.service
 sudo rm -rf /etc/systemd/system/AuthorizationLinux.service
 sudo rm -rf /etc/systemd/system/SettingsDriverLinux.service
 sudo rm -rf /etc/systemd/system/SettingsWebInterfaceLinux.service
+echo -e "\e[32m Atualizando o sistema \e[0m"
 sudo apt-get -y update
 sudo apt -y full-upgrade
+sudo apt -y autoremove
 sudo apt-get -y update
 sudo apt-get -y upgrade
-sudo apt-get -y update
 sudo apt-get -y autoremove
-sudo apt -y autoremove
+sudo apt-get -y update
 clear
 echo -e "\e[32m Instalando ASP.NET Core 6 \e[0m"
 sudo apt-get install -y apt-transport-https
@@ -48,6 +48,7 @@ sudo a2enmod proxy
 sudo a2enmod proxy_balancer
 sudo a2enmod proxy_http
 sudo a2enmod http2
+echo -e "\e[32m Configurando o Apache2 \e[0m"
 sudo a2dissite 000-default.conf
 sudo cp ./ProxyReverse.conf /etc/apache2/sites-available/
 sudo a2ensite ProxyReverse.conf
