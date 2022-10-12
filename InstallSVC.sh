@@ -1,11 +1,18 @@
 #!/bin/bash
 clear
 echo -e "\e[32m Atualizando o sistema \e[0m"
+sudo rm -rf /etc/systemd/system/ServerRecoveryLinux.service
+sudo rm -rf /etc/systemd/system/AuthorizationLinux.service
+sudo rm -rf /etc/systemd/system/SettingsDriverLinux.service
+sudo rm -rf /etc/systemd/system/SettingsWebInterfaceLinux.service
 sudo apt-get -y update
 sudo apt -y full-upgrade
 sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y update
+sudo apt-get autoremove
+sudo apt autoremove
+clear
 echo -e "\e[32m Instalando ASP.NET Core 6 \e[0m"
 sudo apt-get install -y apt-transport-https
 sudo apt-get -y update
