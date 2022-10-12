@@ -2,8 +2,8 @@
 Description=ServerRecoveryLinux - ASP.NET Core Project
 
 [Service]
-WorkingDirectory=/var/publish/Commons/ServerRecoveryLinux/publish
-ExecStart=/usr/bin/dotnet /var/publish/Commons/ServerRecoveryLinux/publish/ServerRecovery.dll
+WorkingDirectory=/var/publish/Commons/ServerRecoveryLinux
+ExecStart=/usr/bin/dotnet /var/publish/Commons/ServerRecoveryLinux/ServerRecovery.dll
 Restart=always
 # Restart service after 10 seconds if the dotnet service crashes:
 RestartSec=5

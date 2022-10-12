@@ -2,7 +2,7 @@
 Description=Patty Authorization - ASP.NET Core Project
 
 [Service]
-WorkingDirectory=/var/publish/Commons/AuthorizationLinux/publish
+WorkingDirectory=/var/publish/Commons/AuthorizationLinux
 ExecStart=/usr/bin/dotnet /var/publish/Commons/AuthorizationLinux/AuthorizationAPI.dll
 Restart=always
 # Restart service after 10 seconds if the dotnet service crashes:
