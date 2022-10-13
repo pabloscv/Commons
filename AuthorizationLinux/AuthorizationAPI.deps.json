@@ -24,17 +24,16 @@
           "AuthorizationAPI.dll": {}
         }
       },
-      "CommonSynchronousSocket/2.2.1": {
+      "CommonSynchronousSocket/3.0.0": {
         "dependencies": {
           "DataModelCore": "3.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.10",
-          "Newtonsoft.Json": "13.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.7"
         },
         "runtime": {
           "lib/net6.0/CommonSynchronousSocket.dll": {
-            "assemblyVersion": "2.2.1.0",
-            "fileVersion": "2.2.1.0"
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
           }
         }
       },
@@ -518,7 +517,7 @@
       "ServerRecoveryClient/3.0.0": {
         "dependencies": {
           "CommonServiceLibrary": "3.0.0",
-          "CommonSynchronousSocket": "2.2.1",
+          "CommonSynchronousSocket": "3.0.0",
           "DataModelCore": "3.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.7",
           "RedisLibrary": "3.0.0",
@@ -530,7 +529,7 @@
       },
       "SettingsDriverClient/3.0.0": {
         "dependencies": {
-          "CommonSynchronousSocket": "2.2.1"
+          "CommonSynchronousSocket": "3.0.0"
         },
         "runtime": {
           "SettingsDriverClient.dll": {}
@@ -552,12 +551,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CommonSynchronousSocket/2.2.1": {
+    "CommonSynchronousSocket/3.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-yCC2De4+uD4pDJaCnPv0pyCPo71Z7mApJhxHGKZNS+7mUMhmSDq9GYkj4YY7SsWRY/lgouDmfbtzdBQmGg2Vfw==",
-      "path": "commonsynchronoussocket/2.2.1",
-      "hashPath": "commonsynchronoussocket.2.2.1.nupkg.sha512"
+      "sha512": "sha512-WRJ/ITj6WCDkPyP2oRZbcYtHlv6PCrrOtD5EWacyxZs/UwB7JJpEjxcytSpXOpU+5xVavQhp4Y39odYiEKM98w==",
+      "path": "commonsynchronoussocket/3.0.0",
+      "hashPath": "commonsynchronoussocket.3.0.0.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
