@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "ServerRecoveryAPP/3.0.0": {
+      "ServerRecoveryAPP/3.0.1": {
         "dependencies": {
           "DataModelCore": "3.0.0",
           "RedisLibrary": "3.0.0",
@@ -406,7 +406,7 @@
     }
   },
   "libraries": {
-    "ServerRecoveryAPP/3.0.0": {
+    "ServerRecoveryAPP/3.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
