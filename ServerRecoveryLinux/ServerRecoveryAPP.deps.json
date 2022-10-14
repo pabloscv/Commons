@@ -17,42 +17,41 @@
           "ServerRecoveryAPP.dll": {}
         }
       },
-      "CommonSynchronousSocket/2.2.1": {
+      "CommonSynchronousSocket/3.0.0": {
         "dependencies": {
           "DataModelCore": "3.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.9",
-          "Newtonsoft.Json": "13.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.7"
         },
         "runtime": {
           "lib/net6.0/CommonSynchronousSocket.dll": {
-            "assemblyVersion": "2.2.1.0",
-            "fileVersion": "2.2.1.0"
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
           }
         }
       },
-      "Microsoft.AspNetCore.JsonPatch/6.0.9": {
+      "Microsoft.AspNetCore.JsonPatch/6.0.10": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.JsonPatch.dll": {
-            "assemblyVersion": "6.0.9.0",
-            "fileVersion": "6.0.922.41926"
+            "assemblyVersion": "6.0.10.0",
+            "fileVersion": "6.0.1022.47617"
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.9": {
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.10": {
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "6.0.9",
+          "Microsoft.AspNetCore.JsonPatch": "6.0.10",
           "Newtonsoft.Json": "13.0.1",
           "Newtonsoft.Json.Bson": "1.0.2"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
-            "assemblyVersion": "6.0.9.0",
-            "fileVersion": "6.0.922.41926"
+            "assemblyVersion": "6.0.10.0",
+            "fileVersion": "6.0.1022.47617"
           }
         }
       },
@@ -368,7 +367,7 @@
       },
       "DataModelCore/3.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.9"
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10"
         },
         "runtime": {
           "DataModelCore.dll": {}
@@ -381,7 +380,7 @@
       },
       "RedisLibrary/3.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.9",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10",
           "StackExchange.Redis": "2.6.66"
         },
         "runtime": {
@@ -390,7 +389,7 @@
       },
       "SettingsDriverClient/3.0.0": {
         "dependencies": {
-          "CommonSynchronousSocket": "2.2.1"
+          "CommonSynchronousSocket": "3.0.0"
         },
         "runtime": {
           "SettingsDriverClient.dll": {}
@@ -412,26 +411,26 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CommonSynchronousSocket/2.2.1": {
+    "CommonSynchronousSocket/3.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-yCC2De4+uD4pDJaCnPv0pyCPo71Z7mApJhxHGKZNS+7mUMhmSDq9GYkj4YY7SsWRY/lgouDmfbtzdBQmGg2Vfw==",
-      "path": "commonsynchronoussocket/2.2.1",
-      "hashPath": "commonsynchronoussocket.2.2.1.nupkg.sha512"
+      "sha512": "sha512-WRJ/ITj6WCDkPyP2oRZbcYtHlv6PCrrOtD5EWacyxZs/UwB7JJpEjxcytSpXOpU+5xVavQhp4Y39odYiEKM98w==",
+      "path": "commonsynchronoussocket/3.0.0",
+      "hashPath": "commonsynchronoussocket.3.0.0.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.JsonPatch/6.0.9": {
+    "Microsoft.AspNetCore.JsonPatch/6.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1d31TnoW0na1vYI0qE/vbrB534CWKo70o3ACGz0N0m/SchcZMKc0D/4WTyI0w0emxx63YiyYKWkkyO+EUbQfeg==",
-      "path": "microsoft.aspnetcore.jsonpatch/6.0.9",
-      "hashPath": "microsoft.aspnetcore.jsonpatch.6.0.9.nupkg.sha512"
+      "sha512": "sha512-d/TRLC4nrlkMZChda9swuv1zKn33yXVxy5xz6CEaSPelpiLQXV5oCjN5zot6MF4TGDuf5N2px75j2rUghkkW6Q==",
+      "path": "microsoft.aspnetcore.jsonpatch/6.0.10",
+      "hashPath": "microsoft.aspnetcore.jsonpatch.6.0.10.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.9": {
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8Fpz4d3sxuLSHqe4zby0c4br5kqmFCR7ki1utqvjZo9oK0G+pWqqhgB1f6efSLpseAWGK3xF1aK+7mfvhmcMtA==",
-      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/6.0.9",
-      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.6.0.9.nupkg.sha512"
+      "sha512": "sha512-ok09jxzJ57s63dQtzlMGPAo4w3pTR3zZoNp0bTT0J4rKJgoJz8uhBHzr6PeCnRNWAOu0nm0b1irg5LhSDwEOBQ==",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/6.0.10",
+      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.6.0.10.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
