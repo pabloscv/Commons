@@ -8,11 +8,11 @@
     ".NETCoreApp,Version=v6.0": {
       "AuthorizationAPI/3.0.0": {
         "dependencies": {
-          "CommonServiceLibrary": "3.0.0",
+          "CommonServiceLibrary": "3.2.0",
           "ContextCommonInterface": "3.0.0",
-          "Core6Boilerplate": "3.1.0",
+          "Core6Boilerplate": "3.3.1",
           "CryptographyCore": "3.0.0",
-          "DataModelCore": "3.0.0",
+          "DataModelCore": "3.2.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10",
           "Microsoft.EntityFrameworkCore": "6.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.10",
@@ -26,7 +26,7 @@
       },
       "CommonSynchronousSocket/3.0.0": {
         "dependencies": {
-          "DataModelCore": "3.0.0",
+          "DataModelCore": "3.2.0",
           "Microsoft.EntityFrameworkCore": "6.0.10",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.7"
         },
@@ -442,7 +442,7 @@
       },
       "CaptchaLibrary/3.0.0": {
         "dependencies": {
-          "DataModelCore": "3.0.0",
+          "DataModelCore": "3.2.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "RedisLibrary": "3.0.0",
           "System.Drawing.Common": "5.0.3"
@@ -451,10 +451,10 @@
           "CaptchaLibrary.dll": {}
         }
       },
-      "CommonServiceLibrary/3.0.0": {
+      "CommonServiceLibrary/3.2.0": {
         "dependencies": {
           "CaptchaLibrary": "3.0.0",
-          "DataModelCore": "3.0.0",
+          "DataModelCore": "3.2.0",
           "RedisLibrary": "3.0.0"
         },
         "runtime": {
@@ -463,7 +463,7 @@
       },
       "ContextCommonInterface/3.0.0": {
         "dependencies": {
-          "DataModelCore": "3.0.0",
+          "DataModelCore": "3.2.0",
           "Microsoft.EntityFrameworkCore": "6.0.10",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.10"
         },
@@ -471,9 +471,9 @@
           "ContextCommonInterface.dll": {}
         }
       },
-      "Core6Boilerplate/3.1.0": {
+      "Core6Boilerplate/3.3.1": {
         "dependencies": {
-          "DataModelCore": "3.0.0",
+          "DataModelCore": "3.2.0",
           "Microsoft.EntityFrameworkCore": "6.0.10",
           "SettingsDriverClient": "3.0.0",
           "Swashbuckle.AspNetCore.Swagger": "6.4.0",
@@ -486,13 +486,13 @@
       },
       "CryptographyCore/3.0.0": {
         "dependencies": {
-          "DataModelCore": "3.0.0"
+          "DataModelCore": "3.2.0"
         },
         "runtime": {
           "CryptographyCore.dll": {}
         }
       },
-      "DataModelCore/3.0.0": {
+      "DataModelCore/3.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10"
         },
@@ -516,9 +516,9 @@
       },
       "ServerRecoveryClient/3.0.0": {
         "dependencies": {
-          "CommonServiceLibrary": "3.0.0",
+          "CommonServiceLibrary": "3.2.0",
           "CommonSynchronousSocket": "3.0.0",
-          "DataModelCore": "3.0.0",
+          "DataModelCore": "3.2.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.7",
           "RedisLibrary": "3.0.0",
           "SettingsDriverClient": "3.0.0"
@@ -892,7 +892,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CommonServiceLibrary/3.0.0": {
+    "CommonServiceLibrary/3.2.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -902,7 +902,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Core6Boilerplate/3.1.0": {
+    "Core6Boilerplate/3.3.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -912,7 +912,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DataModelCore/3.0.0": {
+    "DataModelCore/3.2.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
