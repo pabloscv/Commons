@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "AuthorizationAPI/3.0.0": {
         "dependencies": {
-          "CommonServiceLibrary": "3.2.0",
+          "AuthorizationClient": "3.0.0",
+          "CommonServiceLibrary": "3.3.0",
           "ContextCommonInterface": "3.0.0",
           "Core6Boilerplate": "3.3.1",
           "CryptographyCore": "3.0.0",
@@ -440,6 +441,16 @@
           }
         }
       },
+      "AuthorizationClient/3.0.0": {
+        "dependencies": {
+          "CommonServiceLibrary": "3.3.0",
+          "DataModelCore": "3.2.0",
+          "RedisLibrary": "3.0.0"
+        },
+        "runtime": {
+          "AuthorizationClient.dll": {}
+        }
+      },
       "CaptchaLibrary/3.0.0": {
         "dependencies": {
           "DataModelCore": "3.2.0",
@@ -451,7 +462,7 @@
           "CaptchaLibrary.dll": {}
         }
       },
-      "CommonServiceLibrary/3.2.0": {
+      "CommonServiceLibrary/3.3.0": {
         "dependencies": {
           "CaptchaLibrary": "3.0.0",
           "DataModelCore": "3.2.0",
@@ -516,7 +527,7 @@
       },
       "ServerRecoveryClient/3.0.0": {
         "dependencies": {
-          "CommonServiceLibrary": "3.2.0",
+          "CommonServiceLibrary": "3.3.0",
           "CommonSynchronousSocket": "3.0.0",
           "DataModelCore": "3.2.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.7",
@@ -887,12 +898,17 @@
       "path": "system.windows.extensions/5.0.0",
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     },
+    "AuthorizationClient/3.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "CaptchaLibrary/3.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "CommonServiceLibrary/3.2.0": {
+    "CommonServiceLibrary/3.3.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
