@@ -8,18 +8,18 @@
     ".NETCoreApp,Version=v6.0": {
       "AuthorizationAPI/3.0.0": {
         "dependencies": {
-          "AuthorizationClient": "3.0.0",
-          "CommonServiceLibrary": "3.3.0",
-          "ContextCommonInterface": "3.0.0",
-          "Core6Boilerplate": "3.3.1",
-          "CryptographyCore": "3.0.0",
-          "DataModelCore": "3.2.0",
+          "AuthorizationClient": "3.0.1",
+          "CommonServiceLibrary": "3.3.1",
+          "ContextCommonInterface": "3.0.1",
+          "Core6Boilerplate": "3.3.2",
+          "CryptographyCore": "3.0.1",
+          "DataModelCore": "3.2.1",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10",
           "Microsoft.EntityFrameworkCore": "6.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.10",
-          "RedisLibrary": "3.0.0",
-          "SMTPServicesLibrary": "3.0.0",
-          "ServerRecoveryClient": "3.0.0"
+          "RedisLibrary": "3.0.1",
+          "SMTPServicesLibrary": "3.0.1",
+          "ServerRecoveryClient": "3.0.1"
         },
         "runtime": {
           "AuthorizationAPI.dll": {}
@@ -27,7 +27,7 @@
       },
       "CommonSynchronousSocket/3.0.0": {
         "dependencies": {
-          "DataModelCore": "3.2.0",
+          "DataModelCore": "3.2.1",
           "Microsoft.EntityFrameworkCore": "6.0.10",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.7"
         },
@@ -441,40 +441,40 @@
           }
         }
       },
-      "AuthorizationClient/3.0.0": {
+      "AuthorizationClient/3.0.1": {
         "dependencies": {
-          "CommonServiceLibrary": "3.3.0",
-          "DataModelCore": "3.2.0",
-          "RedisLibrary": "3.0.0"
+          "CommonServiceLibrary": "3.3.1",
+          "DataModelCore": "3.2.1",
+          "RedisLibrary": "3.0.1"
         },
         "runtime": {
           "AuthorizationClient.dll": {}
         }
       },
-      "CaptchaLibrary/3.0.0": {
+      "CaptchaLibrary/3.0.1": {
         "dependencies": {
-          "DataModelCore": "3.2.0",
+          "DataModelCore": "3.2.1",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
-          "RedisLibrary": "3.0.0",
+          "RedisLibrary": "3.0.1",
           "System.Drawing.Common": "5.0.3"
         },
         "runtime": {
           "CaptchaLibrary.dll": {}
         }
       },
-      "CommonServiceLibrary/3.3.0": {
+      "CommonServiceLibrary/3.3.1": {
         "dependencies": {
-          "CaptchaLibrary": "3.0.0",
-          "DataModelCore": "3.2.0",
-          "RedisLibrary": "3.0.0"
+          "CaptchaLibrary": "3.0.1",
+          "DataModelCore": "3.2.1",
+          "RedisLibrary": "3.0.1"
         },
         "runtime": {
           "CommonServiceLibrary.dll": {}
         }
       },
-      "ContextCommonInterface/3.0.0": {
+      "ContextCommonInterface/3.0.1": {
         "dependencies": {
-          "DataModelCore": "3.2.0",
+          "DataModelCore": "3.2.1",
           "Microsoft.EntityFrameworkCore": "6.0.10",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.10"
         },
@@ -482,11 +482,11 @@
           "ContextCommonInterface.dll": {}
         }
       },
-      "Core6Boilerplate/3.3.1": {
+      "Core6Boilerplate/3.3.2": {
         "dependencies": {
-          "DataModelCore": "3.2.0",
+          "DataModelCore": "3.2.1",
           "Microsoft.EntityFrameworkCore": "6.0.10",
-          "SettingsDriverClient": "3.0.0",
+          "SettingsDriverClient": "3.0.1",
           "Swashbuckle.AspNetCore.Swagger": "6.4.0",
           "Swashbuckle.AspNetCore.SwaggerGen": "6.4.0",
           "Swashbuckle.AspNetCore.SwaggerUI": "6.4.0"
@@ -495,15 +495,15 @@
           "Core6Boilerplate.dll": {}
         }
       },
-      "CryptographyCore/3.0.0": {
+      "CryptographyCore/3.0.1": {
         "dependencies": {
-          "DataModelCore": "3.2.0"
+          "DataModelCore": "3.2.1"
         },
         "runtime": {
           "CryptographyCore.dll": {}
         }
       },
-      "DataModelCore/3.2.0": {
+      "DataModelCore/3.2.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10"
         },
@@ -511,12 +511,12 @@
           "DataModelCore.dll": {}
         }
       },
-      "LinuxTaskLibrary/3.0.0": {
+      "LinuxTaskLibrary/3.0.1": {
         "runtime": {
           "LinuxTaskLibrary.dll": {}
         }
       },
-      "RedisLibrary/3.0.0": {
+      "RedisLibrary/3.0.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10",
           "StackExchange.Redis": "2.6.66"
@@ -525,20 +525,20 @@
           "RedisLibrary.dll": {}
         }
       },
-      "ServerRecoveryClient/3.0.0": {
+      "ServerRecoveryClient/3.0.1": {
         "dependencies": {
-          "CommonServiceLibrary": "3.3.0",
+          "CommonServiceLibrary": "3.3.1",
           "CommonSynchronousSocket": "3.0.0",
-          "DataModelCore": "3.2.0",
+          "DataModelCore": "3.2.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.7",
-          "RedisLibrary": "3.0.0",
-          "SettingsDriverClient": "3.0.0"
+          "RedisLibrary": "3.0.1",
+          "SettingsDriverClient": "3.0.1"
         },
         "runtime": {
           "ServerRecoveryClient.dll": {}
         }
       },
-      "SettingsDriverClient/3.0.0": {
+      "SettingsDriverClient/3.0.1": {
         "dependencies": {
           "CommonSynchronousSocket": "3.0.0"
         },
@@ -546,9 +546,9 @@
           "SettingsDriverClient.dll": {}
         }
       },
-      "SMTPServicesLibrary/3.0.0": {
+      "SMTPServicesLibrary/3.0.1": {
         "dependencies": {
-          "LinuxTaskLibrary": "3.0.0"
+          "LinuxTaskLibrary": "3.0.1"
         },
         "runtime": {
           "SMTPServicesLibrary.dll": {}
@@ -898,62 +898,62 @@
       "path": "system.windows.extensions/5.0.0",
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     },
-    "AuthorizationClient/3.0.0": {
+    "AuthorizationClient/3.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "CaptchaLibrary/3.0.0": {
+    "CaptchaLibrary/3.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "CommonServiceLibrary/3.3.0": {
+    "CommonServiceLibrary/3.3.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "ContextCommonInterface/3.0.0": {
+    "ContextCommonInterface/3.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Core6Boilerplate/3.3.1": {
+    "Core6Boilerplate/3.3.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "CryptographyCore/3.0.0": {
+    "CryptographyCore/3.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "DataModelCore/3.2.0": {
+    "DataModelCore/3.2.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "LinuxTaskLibrary/3.0.0": {
+    "LinuxTaskLibrary/3.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "RedisLibrary/3.0.0": {
+    "RedisLibrary/3.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "ServerRecoveryClient/3.0.0": {
+    "ServerRecoveryClient/3.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SettingsDriverClient/3.0.0": {
+    "SettingsDriverClient/3.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SMTPServicesLibrary/3.0.0": {
+    "SMTPServicesLibrary/3.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
