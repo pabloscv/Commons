@@ -9,7 +9,7 @@
       "AuthorizationAPI/3.0.0": {
         "dependencies": {
           "AuthorizationClient": "3.0.1",
-          "CommonServiceLibrary": "3.3.1",
+          "CommonServiceLibrary": "3.3.2",
           "ContextCommonInterface": "3.0.1",
           "Core6Boilerplate": "3.3.2",
           "CryptographyCore": "3.0.1",
@@ -443,7 +443,7 @@
       },
       "AuthorizationClient/3.0.1": {
         "dependencies": {
-          "CommonServiceLibrary": "3.3.1",
+          "CommonServiceLibrary": "3.3.2",
           "DataModelCore": "3.2.1",
           "RedisLibrary": "3.0.1"
         },
@@ -462,11 +462,12 @@
           "CaptchaLibrary.dll": {}
         }
       },
-      "CommonServiceLibrary/3.3.1": {
+      "CommonServiceLibrary/3.3.2": {
         "dependencies": {
           "CaptchaLibrary": "3.0.1",
           "DataModelCore": "3.2.1",
-          "RedisLibrary": "3.0.1"
+          "RedisLibrary": "3.0.1",
+          "SettingsDriverClient": "3.0.1"
         },
         "runtime": {
           "CommonServiceLibrary.dll": {}
@@ -527,7 +528,7 @@
       },
       "ServerRecoveryClient/3.0.1": {
         "dependencies": {
-          "CommonServiceLibrary": "3.3.1",
+          "CommonServiceLibrary": "3.3.2",
           "CommonSynchronousSocket": "3.0.0",
           "DataModelCore": "3.2.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.7",
@@ -908,7 +909,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CommonServiceLibrary/3.3.1": {
+    "CommonServiceLibrary/3.3.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
