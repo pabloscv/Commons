@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "ServerRecoveryAPP/3.0.1": {
+      "ServerRecoveryAPP/3.0.0": {
         "dependencies": {
-          "DataModelCore": "3.0.0",
-          "RedisLibrary": "3.0.0",
-          "SMTPServicesLibrary": "3.0.0",
-          "SettingsDriverClient": "3.0.0"
+          "DataModelCore": "3.2.1",
+          "RedisLibrary": "3.0.1",
+          "SMTPServicesLibrary": "3.0.1",
+          "SettingsDriverClient": "3.0.1"
         },
         "runtime": {
           "ServerRecoveryAPP.dll": {}
@@ -19,7 +19,7 @@
       },
       "CommonSynchronousSocket/3.0.0": {
         "dependencies": {
-          "DataModelCore": "3.0.0",
+          "DataModelCore": "3.2.1",
           "Microsoft.EntityFrameworkCore": "6.0.9",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.7"
         },
@@ -365,7 +365,7 @@
           }
         }
       },
-      "DataModelCore/3.0.0": {
+      "DataModelCore/3.2.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10"
         },
@@ -373,12 +373,12 @@
           "DataModelCore.dll": {}
         }
       },
-      "LinuxTaskLibrary/3.0.0": {
+      "LinuxTaskLibrary/3.0.1": {
         "runtime": {
           "LinuxTaskLibrary.dll": {}
         }
       },
-      "RedisLibrary/3.0.0": {
+      "RedisLibrary/3.0.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10",
           "StackExchange.Redis": "2.6.66"
@@ -387,7 +387,7 @@
           "RedisLibrary.dll": {}
         }
       },
-      "SettingsDriverClient/3.0.0": {
+      "SettingsDriverClient/3.0.1": {
         "dependencies": {
           "CommonSynchronousSocket": "3.0.0"
         },
@@ -395,9 +395,9 @@
           "SettingsDriverClient.dll": {}
         }
       },
-      "SMTPServicesLibrary/3.0.0": {
+      "SMTPServicesLibrary/3.0.1": {
         "dependencies": {
-          "LinuxTaskLibrary": "3.0.0"
+          "LinuxTaskLibrary": "3.0.1"
         },
         "runtime": {
           "SMTPServicesLibrary.dll": {}
@@ -406,7 +406,7 @@
     }
   },
   "libraries": {
-    "ServerRecoveryAPP/3.0.1": {
+    "ServerRecoveryAPP/3.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -677,27 +677,27 @@
       "path": "system.windows.extensions/5.0.0",
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     },
-    "DataModelCore/3.0.0": {
+    "DataModelCore/3.2.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "LinuxTaskLibrary/3.0.0": {
+    "LinuxTaskLibrary/3.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "RedisLibrary/3.0.0": {
+    "RedisLibrary/3.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SettingsDriverClient/3.0.0": {
+    "SettingsDriverClient/3.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SMTPServicesLibrary/3.0.0": {
+    "SMTPServicesLibrary/3.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
