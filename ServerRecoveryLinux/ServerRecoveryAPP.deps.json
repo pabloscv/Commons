@@ -6,9 +6,9 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "ServerRecoveryAPP/3.0.0": {
+      "ServerRecoveryAPP/3.1.0": {
         "dependencies": {
-          "DataModelCore": "3.2.1",
+          "DataModelCore": "3.3.0",
           "RedisLibrary": "3.0.1",
           "SMTPServicesLibrary": "3.0.1",
           "SettingsDriverClient": "3.0.1"
@@ -19,7 +19,7 @@
       },
       "CommonSynchronousSocket/3.0.0": {
         "dependencies": {
-          "DataModelCore": "3.2.1",
+          "DataModelCore": "3.3.0",
           "Microsoft.EntityFrameworkCore": "6.0.9",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.7"
         },
@@ -365,7 +365,7 @@
           }
         }
       },
-      "DataModelCore/3.2.1": {
+      "DataModelCore/3.3.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10"
         },
@@ -406,7 +406,7 @@
     }
   },
   "libraries": {
-    "ServerRecoveryAPP/3.0.0": {
+    "ServerRecoveryAPP/3.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -677,7 +677,7 @@
       "path": "system.windows.extensions/5.0.0",
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     },
-    "DataModelCore/3.2.1": {
+    "DataModelCore/3.3.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,16 @@
+[Unit]
+Description=FileServerLinux - ASP.NET Core Project
+
+[Service]
+WorkingDirectory=/var/publish/Commons/FileServerLinux
+ExecStart=/usr/bin/dotnet /var/publish/Commons/FileServerLinux/FileServer.dll
+Restart=always
+# Restart service after 10 seconds if the dotnet service crashes:
+RestartSec=5
+KillSignal=SIGINT
+SyslogIdentifier=FileServerLinux
+User=root
+Environment=ASPNETCORE_ENVIRONMENT=Production
+
+[Install]
+WantedBy=multi-user.target
