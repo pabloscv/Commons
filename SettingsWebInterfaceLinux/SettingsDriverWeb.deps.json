@@ -9,7 +9,7 @@
       "SettingsDriverWeb/3.0.0": {
         "dependencies": {
           "CryptographyCore": "3.0.1",
-          "DataModelCore": "3.2.1",
+          "DataModelCore": "3.3.0",
           "LinuxTaskLibrary": "3.0.1",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10",
           "RedisLibrary": "3.0.1"
@@ -228,13 +228,13 @@
       },
       "CryptographyCore/3.0.1": {
         "dependencies": {
-          "DataModelCore": "3.2.1"
+          "DataModelCore": "3.3.0"
         },
         "runtime": {
           "CryptographyCore.dll": {}
         }
       },
-      "DataModelCore/3.2.1": {
+      "DataModelCore/3.3.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10"
         },
@@ -402,7 +402,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DataModelCore/3.2.1": {
+    "DataModelCore/3.3.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
