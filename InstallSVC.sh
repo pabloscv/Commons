@@ -45,6 +45,7 @@ sudo cp ./LinuxServices/SettingsDriverLinux.service /etc/systemd/system/
 sudo cp ./LinuxServices/SettingsWebInterfaceLinux.service /etc/systemd/system/
 sudo cp ./LinuxServices/FileServerLinux.service /etc/systemd/system/
 sudo cp -r ./RecursosCompartilhados /var/publish/RecursosCompartilhados
+sudo cp -r ./FileServerData /var/publish/FileServerData
 echo -e "\e[32m Registrando Serviços \e[0m"
 sudo systemctl enable ServerRecoveryLinux.service
 sudo systemctl enable AuthorizationLinux.service
@@ -60,7 +61,9 @@ sudo service FileServerLinux start
 echo -e "\e[32m Configurando o Apache2 \e[0m"
 sudo a2dissite 000-default.conf
 sudo cp ./ProxyReverse.conf /etc/apache2/sites-available/
+sudo cp ./FileReverse.conf /etc/apache2/sites-available/
 sudo a2ensite ProxyReverse.conf
+sudo a2ensite FileReverse.conf
 sudo service apache2 restart
 echo -e "\e[32m Instalação concluída \e[0m"
 sudo cp ./iplocal.sh /root/iplocal.sh
