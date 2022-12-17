@@ -10,7 +10,7 @@
         "dependencies": {
           "CryptographyCore": "3.0.1",
           "DataModelCore": "3.3.0",
-          "LinuxTaskLibrary": "3.0.1",
+          "LinuxTaskLibrary": "3.1.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10",
           "RedisLibrary": "3.0.1"
         },
@@ -242,7 +242,7 @@
           "DataModelCore.dll": {}
         }
       },
-      "LinuxTaskLibrary/3.0.1": {
+      "LinuxTaskLibrary/3.1.0": {
         "runtime": {
           "LinuxTaskLibrary.dll": {}
         }
@@ -407,7 +407,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "LinuxTaskLibrary/3.0.1": {
+    "LinuxTaskLibrary/3.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
