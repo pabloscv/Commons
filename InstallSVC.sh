@@ -23,6 +23,7 @@ sudo a2enmod proxy
 sudo a2enmod proxy_balancer
 sudo a2enmod proxy_http
 sudo a2enmod http2
+sudo a2enmod rewrite
 echo -e "\e[32m Instalando ASP.NET Core 6 \e[0m"
 sudo apt-get install -y apt-transport-https
 sudo apt-get install -y dotnet-sdk-6.0
