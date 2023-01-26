@@ -14,7 +14,6 @@
           "Core6Boilerplate": "3.3.2",
           "CryptographyCore": "3.0.1",
           "DataModelCore": "3.3.0",
-          "HyperMemoryAccess": "1.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10",
           "Microsoft.EntityFrameworkCore": "6.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.10",
@@ -514,11 +513,6 @@
           "DataModelCore.dll": {}
         }
       },
-      "HyperMemoryAccess/1.0.0": {
-        "runtime": {
-          "HyperMemoryAccess.dll": {}
-        }
-      },
       "LinuxTaskLibrary/3.1.0": {
         "runtime": {
           "LinuxTaskLibrary.dll": {}
@@ -937,11 +931,6 @@
       "sha512": ""
     },
     "DataModelCore/3.3.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "HyperMemoryAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
