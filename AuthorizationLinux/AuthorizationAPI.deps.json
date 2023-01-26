@@ -13,7 +13,8 @@
           "ContextCommonInterface": "3.0.1",
           "Core6Boilerplate": "3.3.2",
           "CryptographyCore": "3.0.1",
-          "DataModelCore": "3.2.1",
+          "DataModelCore": "3.3.0",
+          "HyperMemoryAccess": "1.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10",
           "Microsoft.EntityFrameworkCore": "6.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.10",
@@ -27,7 +28,7 @@
       },
       "CommonSynchronousSocket/3.0.0": {
         "dependencies": {
-          "DataModelCore": "3.2.1",
+          "DataModelCore": "3.3.0",
           "Microsoft.EntityFrameworkCore": "6.0.10",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.7"
         },
@@ -445,7 +446,7 @@
         "dependencies": {
           "CommonServiceLibrary": "3.4.0",
           "ContextCommonInterface": "3.0.1",
-          "DataModelCore": "3.2.1",
+          "DataModelCore": "3.3.0",
           "RedisLibrary": "3.0.1"
         },
         "runtime": {
@@ -454,7 +455,7 @@
       },
       "CaptchaLibrary/3.0.1": {
         "dependencies": {
-          "DataModelCore": "3.2.1",
+          "DataModelCore": "3.3.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "RedisLibrary": "3.0.1",
           "System.Drawing.Common": "5.0.3"
@@ -466,7 +467,7 @@
       "CommonServiceLibrary/3.4.0": {
         "dependencies": {
           "CaptchaLibrary": "3.0.1",
-          "DataModelCore": "3.2.1",
+          "DataModelCore": "3.3.0",
           "RedisLibrary": "3.0.1",
           "SettingsDriverClient": "3.0.1"
         },
@@ -476,7 +477,7 @@
       },
       "ContextCommonInterface/3.0.1": {
         "dependencies": {
-          "DataModelCore": "3.2.1",
+          "DataModelCore": "3.3.0",
           "Microsoft.EntityFrameworkCore": "6.0.10",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.10"
         },
@@ -486,7 +487,7 @@
       },
       "Core6Boilerplate/3.3.2": {
         "dependencies": {
-          "DataModelCore": "3.2.1",
+          "DataModelCore": "3.3.0",
           "Microsoft.EntityFrameworkCore": "6.0.10",
           "SettingsDriverClient": "3.0.1",
           "Swashbuckle.AspNetCore.Swagger": "6.4.0",
@@ -499,13 +500,13 @@
       },
       "CryptographyCore/3.0.1": {
         "dependencies": {
-          "DataModelCore": "3.2.1"
+          "DataModelCore": "3.3.0"
         },
         "runtime": {
           "CryptographyCore.dll": {}
         }
       },
-      "DataModelCore/3.2.1": {
+      "DataModelCore/3.3.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10"
         },
@@ -513,7 +514,12 @@
           "DataModelCore.dll": {}
         }
       },
-      "LinuxTaskLibrary/3.0.1": {
+      "HyperMemoryAccess/1.0.0": {
+        "runtime": {
+          "HyperMemoryAccess.dll": {}
+        }
+      },
+      "LinuxTaskLibrary/3.1.0": {
         "runtime": {
           "LinuxTaskLibrary.dll": {}
         }
@@ -531,7 +537,7 @@
         "dependencies": {
           "CommonServiceLibrary": "3.4.0",
           "CommonSynchronousSocket": "3.0.0",
-          "DataModelCore": "3.2.1",
+          "DataModelCore": "3.3.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.7",
           "RedisLibrary": "3.0.1",
           "SettingsDriverClient": "3.0.1"
@@ -550,7 +556,7 @@
       },
       "SMTPServicesLibrary/3.0.1": {
         "dependencies": {
-          "LinuxTaskLibrary": "3.0.1"
+          "LinuxTaskLibrary": "3.1.0"
         },
         "runtime": {
           "SMTPServicesLibrary.dll": {}
@@ -930,12 +936,17 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DataModelCore/3.2.1": {
+    "DataModelCore/3.3.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "LinuxTaskLibrary/3.0.1": {
+    "HyperMemoryAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LinuxTaskLibrary/3.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
