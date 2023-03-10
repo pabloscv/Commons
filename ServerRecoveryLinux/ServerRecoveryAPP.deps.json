@@ -10,6 +10,7 @@
         "dependencies": {
           "CommonSynchronousSocket": "3.1.0",
           "DataModelCore": "3.3.0",
+          "Microsoft.EntityFrameworkCore": "6.0.10",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.7",
           "RedisLibrary": "3.0.1",
           "SMTPServicesLibrary": "3.0.1",
