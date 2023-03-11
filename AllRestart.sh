@@ -1,14 +1,15 @@
 #!/bin/bash
 echo -e "\e[32m Reiniciando os serviços \e[0m"
-sudo service ServerRecoveryLinux stop
-sudo service AuthorizationLinux stop
-sudo service SettingsDriverLinux stop
-sudo service SettingsWebInterfaceLinux stop
-sudo service FileServerLinux stop
-sudo service SettingsDriverLinux start
-sudo service ServerRecoveryLinux start
-sudo service AuthorizationLinux start
-sudo service SettingsWebInterfaceLinux start
-sudo service FileServerLinux start
+echo -e "\e[32m ServerRecoveryLinux \e[0m"
+sudo service ServerRecoveryLinux restart
+echo -e "\e[32m AuthorizationLinux \e[0m"
+sudo service AuthorizationLinux restart
+echo -e "\e[32m SettingsDriverLinux \e[0m"
+sudo service SettingsDriverLinux restart
+echo -e "\e[32m SettingsWebInterfaceLinux \e[0m"
+sudo service SettingsWebInterfaceLinux restart
+echo -e "\e[32m FileServerLinux \e[0m"
+sudo service FileServerLinux restart
 echo ""
-echo "Serviços reiniciados!!"
+echo -e "\e[32m Serviços reiniciados \e[0m"
+echo ""
