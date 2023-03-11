@@ -1,0 +1,15 @@
+D:\Ecossistema\ConsoleApp1\bin\Release\net6.0\publish\ConsoleApp1.exe
+D:\Ecossistema\ConsoleApp1\bin\Release\net6.0\publish\ConsoleApp1.dll
+D:\Ecossistema\ConsoleApp1\bin\Release\net6.0\publish\ConsoleApp1.deps.json
+D:\Ecossistema\ConsoleApp1\bin\Release\net6.0\publish\ConsoleApp1.runtimeconfig.json
+D:\Ecossistema\ConsoleApp1\bin\Release\net6.0\publish\ConsoleApp1.pdb
+D:\Ecossistema\ConsoleApp1\bin\Release\net6.0\publish\Microsoft.EntityFrameworkCore.dll
+D:\Ecossistema\ConsoleApp1\bin\Release\net6.0\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Ecossistema\ConsoleApp1\bin\Release\net6.0\publish\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Ecossistema\ConsoleApp1\bin\Release\net6.0\publish\Microsoft.Extensions.Caching.Memory.dll
+D:\Ecossistema\ConsoleApp1\bin\Release\net6.0\publish\Microsoft.Extensions.DependencyInjection.dll
+D:\Ecossistema\ConsoleApp1\bin\Release\net6.0\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Ecossistema\ConsoleApp1\bin\Release\net6.0\publish\Microsoft.Extensions.Logging.dll
+D:\Ecossistema\ConsoleApp1\bin\Release\net6.0\publish\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Ecossistema\ConsoleApp1\bin\Release\net6.0\publish\Microsoft.Extensions.Options.dll
+D:\Ecossistema\ConsoleApp1\bin\Release\net6.0\publish\Microsoft.Extensions.Primitives.dll
