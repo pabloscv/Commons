@@ -9,7 +9,7 @@
       "ServerRecoveryAPP/3.1.0": {
         "dependencies": {
           "CommonSynchronousSocket": "3.1.0",
-          "DataModelCore": "3.3.0",
+          "Microsoft.EntityFrameworkCore": "6.0.14",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.8",
           "RedisLibrary": "3.0.1",
           "SMTPServicesLibrary": "3.0.1",
