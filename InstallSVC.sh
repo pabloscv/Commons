@@ -4,6 +4,7 @@ sudo rm -rf /etc/systemd/system/ServerRecoveryLinux.service
 sudo rm -rf /etc/systemd/system/AuthorizationLinux.service
 sudo rm -rf /etc/systemd/system/SettingsDriverLinux.service
 sudo rm -rf /etc/systemd/system/SettingsWebInterfaceLinux.service
+sudo rm -rf /etc/systemd/system/FileServerLinux.service
 echo -e "\e[32m Atualizando o sistema \e[0m"
 sudo apt-get -y update
 sudo apt -y full-upgrade
