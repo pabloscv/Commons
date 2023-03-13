@@ -225,6 +225,7 @@
       "CommonSynchronousSocket/3.1.0": {
         "dependencies": {
           "DataModelCore": "3.3.0",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.3",
           "Microsoft.EntityFrameworkCore": "7.0.3",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.3"
         },
