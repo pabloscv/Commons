@@ -258,7 +258,8 @@
       },
       "SettingsDriverClient/3.0.1": {
         "dependencies": {
-          "CommonSynchronousSocket": "3.1.0"
+          "CommonSynchronousSocket": "3.1.0",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.3"
         },
         "runtime": {
           "SettingsDriverClient.dll": {}
