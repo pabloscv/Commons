@@ -9,13 +9,14 @@
       "FileServerLinux/1.0.0": {
         "dependencies": {
           "AuthorizationClient": "3.1.0",
+          "CommonSynchronousSocket": "3.7.3",
           "ContextCommonInterface": "3.7.0",
           "Core7Boilerplate": "3.7.0",
           "CryptographyCore": "3.7.0",
           "DataModelCore": "3.7.0",
           "LinuxTaskLibrary": "3.7.0",
-          "Microsoft.EntityFrameworkCore": "7.0.3",
-          "Microsoft.EntityFrameworkCore.Tools": "7.0.3",
+          "Microsoft.EntityFrameworkCore": "7.0.4",
+          "Microsoft.EntityFrameworkCore.Tools": "7.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.3",
           "ServerRecoveryClient": "3.0.1"
         },
@@ -23,17 +24,14 @@
           "FileServerLinux.dll": {}
         }
       },
-      "CommonSynchronousSocket/3.7.2": {
+      "CommonSynchronousSocket/3.7.3": {
         "dependencies": {
           "DataModelCore": "3.7.0",
-          "Microsoft.EntityFrameworkCore": "7.0.3",
+          "Microsoft.EntityFrameworkCore": "7.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.3"
         },
         "runtime": {
-          "lib/net7.0/CommonSynchronousSocket.dll": {
-            "assemblyVersion": "3.7.2.0",
-            "fileVersion": "3.7.2.0"
-          }
+          "CommonSynchronousSocket.dll": {}
         }
       },
       "Humanizer.Core/2.14.1": {},
@@ -48,79 +46,79 @@
           "Microsoft.Extensions.Primitives": "7.0.0"
         }
       },
-      "Microsoft.AspNetCore.JsonPatch/7.0.3": {
+      "Microsoft.AspNetCore.JsonPatch/7.0.4": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "lib/net7.0/Microsoft.AspNetCore.JsonPatch.dll": {
-            "assemblyVersion": "7.0.3.0",
-            "fileVersion": "7.0.323.8009"
+            "assemblyVersion": "7.0.4.0",
+            "fileVersion": "7.0.423.11903"
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/7.0.3": {
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/7.0.4": {
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "7.0.3",
+          "Microsoft.AspNetCore.JsonPatch": "7.0.4",
           "Newtonsoft.Json": "13.0.1",
           "Newtonsoft.Json.Bson": "1.0.2"
         },
         "runtime": {
           "lib/net7.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
-            "assemblyVersion": "7.0.3.0",
-            "fileVersion": "7.0.323.8009"
+            "assemblyVersion": "7.0.4.0",
+            "fileVersion": "7.0.423.11903"
           }
         }
       },
       "Microsoft.CSharp/4.7.0": {},
-      "Microsoft.EntityFrameworkCore/7.0.3": {
+      "Microsoft.EntityFrameworkCore/7.0.4": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.3",
-          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.3",
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.4",
+          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.4",
           "Microsoft.Extensions.Caching.Memory": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Extensions.Logging": "7.0.0"
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {
-            "assemblyVersion": "7.0.3.0",
-            "fileVersion": "7.0.323.6302"
+            "assemblyVersion": "7.0.4.0",
+            "fileVersion": "7.0.423.11504"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/7.0.3": {
+      "Microsoft.EntityFrameworkCore.Abstractions/7.0.4": {
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
-            "assemblyVersion": "7.0.3.0",
-            "fileVersion": "7.0.323.6302"
+            "assemblyVersion": "7.0.4.0",
+            "fileVersion": "7.0.423.11504"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/7.0.3": {},
-      "Microsoft.EntityFrameworkCore.Design/7.0.3": {
+      "Microsoft.EntityFrameworkCore.Analyzers/7.0.4": {},
+      "Microsoft.EntityFrameworkCore.Design/7.0.4": {
         "dependencies": {
           "Humanizer.Core": "2.14.1",
-          "Microsoft.EntityFrameworkCore.Relational": "7.0.3",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.4",
           "Microsoft.Extensions.DependencyModel": "7.0.0",
           "Mono.TextTemplating": "2.2.1"
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/7.0.3": {
+      "Microsoft.EntityFrameworkCore.Relational/7.0.4": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.3",
+          "Microsoft.EntityFrameworkCore": "7.0.4",
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {
-            "assemblyVersion": "7.0.3.0",
-            "fileVersion": "7.0.323.6302"
+            "assemblyVersion": "7.0.4.0",
+            "fileVersion": "7.0.423.11504"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/7.0.3": {
+      "Microsoft.EntityFrameworkCore.Tools/7.0.4": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "7.0.3"
+          "Microsoft.EntityFrameworkCore.Design": "7.0.4"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
@@ -235,9 +233,9 @@
       },
       "Npgsql.EntityFrameworkCore.PostgreSQL/7.0.3": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.3",
-          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.3",
-          "Microsoft.EntityFrameworkCore.Relational": "7.0.3",
+          "Microsoft.EntityFrameworkCore": "7.0.4",
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.4",
           "Npgsql": "7.0.2"
         },
         "runtime": {
@@ -368,8 +366,8 @@
       "ContextCommonInterface/3.7.0": {
         "dependencies": {
           "DataModelCore": "3.7.0",
-          "Microsoft.EntityFrameworkCore": "7.0.3",
-          "Microsoft.EntityFrameworkCore.Relational": "7.0.3"
+          "Microsoft.EntityFrameworkCore": "7.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.4"
         },
         "runtime": {
           "ContextCommonInterface.dll": {}
@@ -378,7 +376,7 @@
       "Core7Boilerplate/3.7.0": {
         "dependencies": {
           "DataModelCore": "3.7.0",
-          "Microsoft.EntityFrameworkCore": "7.0.3",
+          "Microsoft.EntityFrameworkCore": "7.0.4",
           "SettingsDriverClient": "3.0.1",
           "Swashbuckle.AspNetCore.Swagger": "6.5.0",
           "Swashbuckle.AspNetCore.SwaggerGen": "6.5.0",
@@ -398,7 +396,7 @@
       },
       "DataModelCore/3.7.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.3"
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.4"
         },
         "runtime": {
           "DataModelCore.dll": {}
@@ -411,7 +409,7 @@
       },
       "RedisLibrary/3.7.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.3",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.4",
           "StackExchange.Redis": "2.6.96"
         },
         "runtime": {
@@ -421,7 +419,7 @@
       "ServerRecoveryClient/3.0.1": {
         "dependencies": {
           "CommonServiceLibrary": "3.7.0",
-          "CommonSynchronousSocket": "3.7.2",
+          "CommonSynchronousSocket": "3.7.3",
           "DataModelCore": "3.7.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.3",
           "RedisLibrary": "3.7.0",
@@ -433,7 +431,7 @@
       },
       "SettingsDriverClient/3.0.1": {
         "dependencies": {
-          "CommonSynchronousSocket": "3.7.2"
+          "CommonSynchronousSocket": "3.7.3"
         },
         "runtime": {
           "SettingsDriverClient.dll": {}
@@ -447,12 +445,10 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CommonSynchronousSocket/3.7.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Q1hGHmk9eOKLico2KqN9UvY9ozNR69bpt/GoSpw1JiKTnXSzZRkn5yyjcmp76jNSj4vSUxMQwI8K5n+r2Rb9Zw==",
-      "path": "commonsynchronoussocket/3.7.2",
-      "hashPath": "commonsynchronoussocket.3.7.2.nupkg.sha512"
+    "CommonSynchronousSocket/3.7.3": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
@@ -475,19 +471,19 @@
       "path": "microsoft.aspnetcore.http.features/2.2.0",
       "hashPath": "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.JsonPatch/7.0.3": {
+    "Microsoft.AspNetCore.JsonPatch/7.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-k5Vf0AK5dFh0gdg4aZha3caJ7DD0h+0MzgvjbAO4zfIxxpZn25LlUwEC/a5e8nUbw1DBPxfaic2K6yJolWaBkw==",
-      "path": "microsoft.aspnetcore.jsonpatch/7.0.3",
-      "hashPath": "microsoft.aspnetcore.jsonpatch.7.0.3.nupkg.sha512"
+      "sha512": "sha512-Ign6gpOinYLePR66lVRHhh3qY9sBiVwvp2P3kjYIi5yRd/60BC5kQb+NZWqaIz1/8BXnVqdRE2baEKDm5fU3gg==",
+      "path": "microsoft.aspnetcore.jsonpatch/7.0.4",
+      "hashPath": "microsoft.aspnetcore.jsonpatch.7.0.4.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/7.0.3": {
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/7.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Q4Trx6jnKgsC/UARC2pCOIm0pFWRjc28e0ex3HZzcQE0EaVfmQaELIo8akgmljXnebT5D4Ivx5hXyvZbQOAWbw==",
-      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/7.0.3",
-      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.7.0.3.nupkg.sha512"
+      "sha512": "sha512-o7gsUVT5HjBWBOeh8OaZSIoKBr5gCZdBfThivMr8Xh3IPGcQDO1cGHzBTaQQ/DoxhPnducXacCl9On5GFxcOxw==",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/7.0.4",
+      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.7.0.4.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
@@ -496,47 +492,47 @@
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore/7.0.3": {
+    "Microsoft.EntityFrameworkCore/7.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6XUI2YGoaLMoP9KGaqWmmd4B2n5bpQbXrVRpH20Et3YjQ0Rn3Ia6HM/ANcSq9rBfjfUySgo9SwUZgQ4m4PF3LQ==",
-      "path": "microsoft.entityframeworkcore/7.0.3",
-      "hashPath": "microsoft.entityframeworkcore.7.0.3.nupkg.sha512"
+      "sha512": "sha512-eNcsY3rft5ERJJcen80Jyg57EScjWZmvhwmFLYXmEOTdVqHG+wQZiMOXnO1b5RH3u2qTQq+Tpci7KGfLAG5Gtg==",
+      "path": "microsoft.entityframeworkcore/7.0.4",
+      "hashPath": "microsoft.entityframeworkcore.7.0.4.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/7.0.3": {
+    "Microsoft.EntityFrameworkCore.Abstractions/7.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0NaFBZykUlQHknddRuKY4v+MFZX/AW+v2V85dgj7abIlt+kL3GWa7QNH5S1084VLf1u+dq1SnhZsOvykc3Y0sA==",
-      "path": "microsoft.entityframeworkcore.abstractions/7.0.3",
-      "hashPath": "microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512"
+      "sha512": "sha512-6GbYvs4L5oFpYpMzwF05kdDgvX09UmMX7MpDtDlGI5ymijFwquwv+yvdijbtodOuu0yLUpc4n71x6eBdJ8v1xQ==",
+      "path": "microsoft.entityframeworkcore.abstractions/7.0.4",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.7.0.4.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/7.0.3": {
+    "Microsoft.EntityFrameworkCore.Analyzers/7.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CLyRWFLwaOUZNPEia/aBMzFxZqm/ITKt3B+yUFtrg4Ys5VF3n2gvneuItC9IhpeOcjfdSgu/yUKf8y/IsNHs5A==",
-      "path": "microsoft.entityframeworkcore.analyzers/7.0.3",
-      "hashPath": "microsoft.entityframeworkcore.analyzers.7.0.3.nupkg.sha512"
+      "sha512": "sha512-YRD4bViuaEPEsaBIL52DzXGzLCt3jYoE3wztYEW1QZYDl89hQ+ca0nvBO2mnMHmCXpU/2wlErrUyDp4x5B/3mg==",
+      "path": "microsoft.entityframeworkcore.analyzers/7.0.4",
+      "hashPath": "microsoft.entityframeworkcore.analyzers.7.0.4.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Design/7.0.3": {
+    "Microsoft.EntityFrameworkCore.Design/7.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Nv0Y2Zh8d919qKq8Q1bvbWQbFeb4JQ7jCuakajSVtip5JIwt4hTIWetVIapJ2vOQDDZuAHCzkjimMOlHH5LVsQ==",
-      "path": "microsoft.entityframeworkcore.design/7.0.3",
-      "hashPath": "microsoft.entityframeworkcore.design.7.0.3.nupkg.sha512"
+      "sha512": "sha512-LI/ML3w17ap5IUmEKOPVnGJYi/XSDJW3Rf42utNF0e1tidmKtSkjwoTqIKLt2hE+jQJrlzeaqu5YiqdoFWVuZw==",
+      "path": "microsoft.entityframeworkcore.design/7.0.4",
+      "hashPath": "microsoft.entityframeworkcore.design.7.0.4.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Relational/7.0.3": {
+    "Microsoft.EntityFrameworkCore.Relational/7.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RxNNjtTrxsMtdBtgoXGRSy8uCXaBHaVzIonTeo7+Ys+N0yEWwhf2E74cxneyunMi13Ezlld10ecCHlDubEU/Pw==",
-      "path": "microsoft.entityframeworkcore.relational/7.0.3",
-      "hashPath": "microsoft.entityframeworkcore.relational.7.0.3.nupkg.sha512"
+      "sha512": "sha512-L41+VonK6L0IurFHopoe5yY+m3MD26OMocKLPPR/XKxnazzZUcGPz0IGJpVnwpZyKVPfEIAnD5vmm60meYr1NA==",
+      "path": "microsoft.entityframeworkcore.relational/7.0.4",
+      "hashPath": "microsoft.entityframeworkcore.relational.7.0.4.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Tools/7.0.3": {
+    "Microsoft.EntityFrameworkCore.Tools/7.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-yHFlYPZS3Jx7JMCQnGKfJzv95rJWVcmcUn/OW5cbCyWgQk81JJpTZ9Q6kkvwquYjFRfvYHBGuXNIYhAJokOBTQ==",
-      "path": "microsoft.entityframeworkcore.tools/7.0.3",
-      "hashPath": "microsoft.entityframeworkcore.tools.7.0.3.nupkg.sha512"
+      "sha512": "sha512-58hDB+ENGisuSjJBl1RBHL9qzFJTukFSQFl/wCU8/3ApcOH/rPrRG4PWThiJTmfHRmh8H8HExdYbtkv7wa7BLg==",
+      "path": "microsoft.entityframeworkcore.tools/7.0.4",
+      "hashPath": "microsoft.entityframeworkcore.tools.7.0.4.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
       "type": "package",
