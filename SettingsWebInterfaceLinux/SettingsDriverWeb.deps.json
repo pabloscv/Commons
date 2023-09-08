@@ -6,44 +6,46 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "SettingsDriverWeb/3.0.0": {
+      "SettingsDriverWeb/3.7.5": {
         "dependencies": {
-          "CryptographyCore": "3.7.0",
-          "DataModelCore": "3.7.0",
-          "LinuxTaskLibrary": "3.7.0",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.4",
-          "RedisLibrary": "3.7.0"
+          "CryptographyCore": "3.7.6",
+          "DataModelCore": "3.7.6",
+          "LinuxTaskLibrary": "3.7.6",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.9",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.4",
+          "RedisLibrary": "3.7.6"
         },
         "runtime": {
           "SettingsDriverWeb.dll": {}
         }
       },
-      "Microsoft.AspNetCore.JsonPatch/7.0.4": {
+      "Microsoft.AspNetCore.JsonPatch/7.0.9": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "lib/net7.0/Microsoft.AspNetCore.JsonPatch.dll": {
-            "assemblyVersion": "7.0.4.0",
-            "fileVersion": "7.0.423.11903"
+            "assemblyVersion": "7.0.9.0",
+            "fileVersion": "7.0.923.32110"
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/7.0.4": {
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/7.0.9": {
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "7.0.4",
+          "Microsoft.AspNetCore.JsonPatch": "7.0.9",
           "Newtonsoft.Json": "13.0.1",
           "Newtonsoft.Json.Bson": "1.0.2"
         },
         "runtime": {
           "lib/net7.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
-            "assemblyVersion": "7.0.4.0",
-            "fileVersion": "7.0.423.11903"
+            "assemblyVersion": "7.0.9.0",
+            "fileVersion": "7.0.923.32110"
           }
         }
       },
       "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.4": {},
       "Newtonsoft.Json/13.0.1": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -63,54 +65,55 @@
           }
         }
       },
-      "Pipelines.Sockets.Unofficial/2.2.2": {
+      "Pipelines.Sockets.Unofficial/2.2.8": {
         "dependencies": {
           "System.IO.Pipelines": "5.0.1"
         },
         "runtime": {
           "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "2.2.2.34088"
+            "fileVersion": "2.2.8.1080"
           }
         }
       },
-      "StackExchange.Redis/2.6.96": {
+      "StackExchange.Redis/2.6.122": {
         "dependencies": {
-          "Pipelines.Sockets.Unofficial": "2.2.2"
+          "Pipelines.Sockets.Unofficial": "2.2.8"
         },
         "runtime": {
-          "lib/net5.0/StackExchange.Redis.dll": {
+          "lib/net6.0/StackExchange.Redis.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.6.96.30123"
+            "fileVersion": "2.6.122.38350"
           }
         }
       },
       "System.IO.Pipelines/5.0.1": {},
-      "CryptographyCore/3.7.0": {
+      "CryptographyCore/3.7.6": {
         "dependencies": {
-          "DataModelCore": "3.7.0"
+          "DataModelCore": "3.7.6"
         },
         "runtime": {
           "CryptographyCore.dll": {}
         }
       },
-      "DataModelCore/3.7.0": {
+      "DataModelCore/3.7.6": {
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.4"
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.9",
+          "RedisLibrary": "3.7.6"
         },
         "runtime": {
           "DataModelCore.dll": {}
         }
       },
-      "LinuxTaskLibrary/3.7.0": {
+      "LinuxTaskLibrary/3.7.6": {
         "runtime": {
           "LinuxTaskLibrary.dll": {}
         }
       },
-      "RedisLibrary/3.7.0": {
+      "RedisLibrary/3.7.6": {
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.4",
-          "StackExchange.Redis": "2.6.96"
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.9",
+          "StackExchange.Redis": "2.6.122"
         },
         "runtime": {
           "RedisLibrary.dll": {}
@@ -119,24 +122,24 @@
     }
   },
   "libraries": {
-    "SettingsDriverWeb/3.0.0": {
+    "SettingsDriverWeb/3.7.5": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.JsonPatch/7.0.4": {
+    "Microsoft.AspNetCore.JsonPatch/7.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Ign6gpOinYLePR66lVRHhh3qY9sBiVwvp2P3kjYIi5yRd/60BC5kQb+NZWqaIz1/8BXnVqdRE2baEKDm5fU3gg==",
-      "path": "microsoft.aspnetcore.jsonpatch/7.0.4",
-      "hashPath": "microsoft.aspnetcore.jsonpatch.7.0.4.nupkg.sha512"
+      "sha512": "sha512-6iMRtYIQZj7gMC7iVotL9bZjCjnbV2ZkAAduKYHfV6v+WQhEjk0iEGSFNVh6N9rTCNTeZ2xVgv3xi675GwyDzQ==",
+      "path": "microsoft.aspnetcore.jsonpatch/7.0.9",
+      "hashPath": "microsoft.aspnetcore.jsonpatch.7.0.9.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/7.0.4": {
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/7.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-o7gsUVT5HjBWBOeh8OaZSIoKBr5gCZdBfThivMr8Xh3IPGcQDO1cGHzBTaQQ/DoxhPnducXacCl9On5GFxcOxw==",
-      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/7.0.4",
-      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.7.0.4.nupkg.sha512"
+      "sha512": "sha512-dhAFLGV3RfK6BAbLYpTKcVch1hcyP2qDWNy7Pk2wGrQEO/yWbWwiR9c13hk5kGWcPMGeVMkcuftUo6OAHe2yIA==",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/7.0.9",
+      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.7.0.9.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
@@ -144,6 +147,13 @@
       "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aKxpRAUIxDrnSnyr7xJWGixOBgsB7Z4oHpWRkpRzzq04kfze4mN7944gRc4X9H2U5KG3A/btF74kavkO8KXqCg==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.19.4",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.1": {
       "type": "package",
@@ -159,19 +169,19 @@
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
     },
-    "Pipelines.Sockets.Unofficial/2.2.2": {
+    "Pipelines.Sockets.Unofficial/2.2.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Bhk0FWxH1paI+18zr1g5cTL+ebeuDcBCR+rRFO+fKEhretgjs7MF2Mc1P64FGLecWp4zKCUOPzngBNrqVyY7Zg==",
-      "path": "pipelines.sockets.unofficial/2.2.2",
-      "hashPath": "pipelines.sockets.unofficial.2.2.2.nupkg.sha512"
+      "sha512": "sha512-zG2FApP5zxSx6OcdJQLbZDk2AVlN2BNQD6MorwIfV6gVj0RRxWPEp2LXAxqDGZqeNV1Zp0BNPcNaey/GXmTdvQ==",
+      "path": "pipelines.sockets.unofficial/2.2.8",
+      "hashPath": "pipelines.sockets.unofficial.2.2.8.nupkg.sha512"
     },
-    "StackExchange.Redis/2.6.96": {
+    "StackExchange.Redis/2.6.122": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-JDj94bTwBZ6zA1vknEYJppRXRejTnl5u2z6cRBQ0DJ+Uy94qvn0XsQZ2M+1/VkqtxQ+LUU1h4JZWwcvVojGiQg==",
-      "path": "stackexchange.redis/2.6.96",
-      "hashPath": "stackexchange.redis.2.6.96.nupkg.sha512"
+      "sha512": "sha512-wp7mvGpFXaevfZ07/SDeh/6YHUJEgwJIGyjbDWKBYbPwKMJQYFz9zFEmBptqtVzqvSgft5nlewwutoaMaG0LPA==",
+      "path": "stackexchange.redis/2.6.122",
+      "hashPath": "stackexchange.redis.2.6.122.nupkg.sha512"
     },
     "System.IO.Pipelines/5.0.1": {
       "type": "package",
@@ -180,22 +190,22 @@
       "path": "system.io.pipelines/5.0.1",
       "hashPath": "system.io.pipelines.5.0.1.nupkg.sha512"
     },
-    "CryptographyCore/3.7.0": {
+    "CryptographyCore/3.7.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "DataModelCore/3.7.0": {
+    "DataModelCore/3.7.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "LinuxTaskLibrary/3.7.0": {
+    "LinuxTaskLibrary/3.7.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "RedisLibrary/3.7.0": {
+    "RedisLibrary/3.7.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
