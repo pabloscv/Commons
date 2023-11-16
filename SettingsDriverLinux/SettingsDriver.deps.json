@@ -8,12 +8,12 @@
     ".NETCoreApp,Version=v7.0": {
       "SettingsDriver/3.7.5": {
         "dependencies": {
-          "CommonSynchronousSocket": "3.7.7",
-          "CryptographyCore": "3.7.6",
+          "CommonSynchronousSocket": "3.7.9",
+          "CryptographyCore": "3.7.8",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.11",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.11",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.4",
-          "RedisLibrary": "3.7.6"
+          "RedisLibrary": "3.7.9"
         },
         "runtime": {
           "SettingsDriver.dll": {}
@@ -165,9 +165,9 @@
         }
       },
       "System.IO.Pipelines/5.0.1": {},
-      "CommonSynchronousSocket/3.7.7": {
+      "CommonSynchronousSocket/3.7.9": {
         "dependencies": {
-          "DataModelCore": "3.7.6",
+          "DataModelCore": "3.7.9",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.11",
           "Microsoft.EntityFrameworkCore": "7.0.11",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.11"
@@ -176,24 +176,24 @@
           "CommonSynchronousSocket.dll": {}
         }
       },
-      "CryptographyCore/3.7.6": {
+      "CryptographyCore/3.7.8": {
         "dependencies": {
-          "DataModelCore": "3.7.6"
+          "DataModelCore": "3.7.9"
         },
         "runtime": {
           "CryptographyCore.dll": {}
         }
       },
-      "DataModelCore/3.7.6": {
+      "DataModelCore/3.7.9": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.11",
-          "RedisLibrary": "3.7.6"
+          "RedisLibrary": "3.7.9"
         },
         "runtime": {
           "DataModelCore.dll": {}
         }
       },
-      "RedisLibrary/3.7.6": {
+      "RedisLibrary/3.7.9": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.11",
           "StackExchange.Redis": "2.6.122"
@@ -364,22 +364,22 @@
       "path": "system.io.pipelines/5.0.1",
       "hashPath": "system.io.pipelines.5.0.1.nupkg.sha512"
     },
-    "CommonSynchronousSocket/3.7.7": {
+    "CommonSynchronousSocket/3.7.9": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "CryptographyCore/3.7.6": {
+    "CryptographyCore/3.7.8": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "DataModelCore/3.7.6": {
+    "DataModelCore/3.7.9": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "RedisLibrary/3.7.6": {
+    "RedisLibrary/3.7.9": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -8,12 +8,12 @@
     ".NETCoreApp,Version=v7.0": {
       "SettingsDriverWeb/3.7.5": {
         "dependencies": {
-          "CryptographyCore": "3.7.6",
-          "DataModelCore": "3.7.6",
-          "LinuxTaskLibrary": "3.7.6",
+          "CryptographyCore": "3.7.8",
+          "DataModelCore": "3.7.9",
+          "LinuxTaskLibrary": "3.7.8",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.11",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.4",
-          "RedisLibrary": "3.7.6"
+          "RedisLibrary": "3.7.9"
         },
         "runtime": {
           "SettingsDriverWeb.dll": {}
@@ -88,29 +88,29 @@
         }
       },
       "System.IO.Pipelines/5.0.1": {},
-      "CryptographyCore/3.7.6": {
+      "CryptographyCore/3.7.8": {
         "dependencies": {
-          "DataModelCore": "3.7.6"
+          "DataModelCore": "3.7.9"
         },
         "runtime": {
           "CryptographyCore.dll": {}
         }
       },
-      "DataModelCore/3.7.6": {
+      "DataModelCore/3.7.9": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.11",
-          "RedisLibrary": "3.7.6"
+          "RedisLibrary": "3.7.9"
         },
         "runtime": {
           "DataModelCore.dll": {}
         }
       },
-      "LinuxTaskLibrary/3.7.6": {
+      "LinuxTaskLibrary/3.7.8": {
         "runtime": {
           "LinuxTaskLibrary.dll": {}
         }
       },
-      "RedisLibrary/3.7.6": {
+      "RedisLibrary/3.7.9": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.11",
           "StackExchange.Redis": "2.6.122"
@@ -190,22 +190,22 @@
       "path": "system.io.pipelines/5.0.1",
       "hashPath": "system.io.pipelines.5.0.1.nupkg.sha512"
     },
-    "CryptographyCore/3.7.6": {
+    "CryptographyCore/3.7.8": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "DataModelCore/3.7.6": {
+    "DataModelCore/3.7.9": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "LinuxTaskLibrary/3.7.6": {
+    "LinuxTaskLibrary/3.7.8": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "RedisLibrary/3.7.6": {
+    "RedisLibrary/3.7.9": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

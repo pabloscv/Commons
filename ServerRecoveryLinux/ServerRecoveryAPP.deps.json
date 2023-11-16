@@ -8,14 +8,14 @@
     ".NETCoreApp,Version=v7.0": {
       "ServerRecoveryAPP/3.7.5": {
         "dependencies": {
-          "DataModelCore": "3.7.6",
+          "DataModelCore": "3.7.9",
           "Microsoft.EntityFrameworkCore": "7.0.11",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.11",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.3",
-          "RedisLibrary": "3.7.6",
-          "SMTPServicesLibrary": "3.7.6",
-          "SettingsDriverClient": "3.7.6"
+          "RedisLibrary": "3.7.9",
+          "SMTPServicesLibrary": "3.7.8",
+          "SettingsDriverClient": "3.7.9"
         },
         "runtime": {
           "ServerRecoveryAPP.dll": {}
@@ -224,9 +224,9 @@
           "System.Text.Encodings.Web": "7.0.0"
         }
       },
-      "CommonSynchronousSocket/3.7.7": {
+      "CommonSynchronousSocket/3.7.9": {
         "dependencies": {
-          "DataModelCore": "3.7.6",
+          "DataModelCore": "3.7.9",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.11",
           "Microsoft.EntityFrameworkCore": "7.0.11",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.11"
@@ -235,21 +235,21 @@
           "CommonSynchronousSocket.dll": {}
         }
       },
-      "DataModelCore/3.7.6": {
+      "DataModelCore/3.7.9": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.11",
-          "RedisLibrary": "3.7.6"
+          "RedisLibrary": "3.7.9"
         },
         "runtime": {
           "DataModelCore.dll": {}
         }
       },
-      "LinuxTaskLibrary/3.7.6": {
+      "LinuxTaskLibrary/3.7.8": {
         "runtime": {
           "LinuxTaskLibrary.dll": {}
         }
       },
-      "RedisLibrary/3.7.6": {
+      "RedisLibrary/3.7.9": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.11",
           "StackExchange.Redis": "2.6.122"
@@ -258,17 +258,17 @@
           "RedisLibrary.dll": {}
         }
       },
-      "SettingsDriverClient/3.7.6": {
+      "SettingsDriverClient/3.7.9": {
         "dependencies": {
-          "CommonSynchronousSocket": "3.7.7"
+          "CommonSynchronousSocket": "3.7.9"
         },
         "runtime": {
           "SettingsDriverClient.dll": {}
         }
       },
-      "SMTPServicesLibrary/3.7.6": {
+      "SMTPServicesLibrary/3.7.8": {
         "dependencies": {
-          "LinuxTaskLibrary": "3.7.6"
+          "LinuxTaskLibrary": "3.7.8"
         },
         "runtime": {
           "SMTPServicesLibrary.dll": {}
@@ -506,32 +506,32 @@
       "path": "system.text.json/7.0.0",
       "hashPath": "system.text.json.7.0.0.nupkg.sha512"
     },
-    "CommonSynchronousSocket/3.7.7": {
+    "CommonSynchronousSocket/3.7.9": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "DataModelCore/3.7.6": {
+    "DataModelCore/3.7.9": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "LinuxTaskLibrary/3.7.6": {
+    "LinuxTaskLibrary/3.7.8": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "RedisLibrary/3.7.6": {
+    "RedisLibrary/3.7.9": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SettingsDriverClient/3.7.6": {
+    "SettingsDriverClient/3.7.9": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SMTPServicesLibrary/3.7.6": {
+    "SMTPServicesLibrary/3.7.8": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
