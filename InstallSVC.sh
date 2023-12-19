@@ -44,10 +44,6 @@ echo -e "\e[32m Registrando Serviços \e[0m"
 sudo systemctl enable ServerRecoveryLinux.service
 sudo systemctl enable AuthorizationLinux.service
 sudo systemctl enable FileServerLinux.service
-echo -e "\e[32m Iniciando Serviços \e[0m"
-sudo service ServerRecoveryLinux start
-sudo service AuthorizationLinux start
-sudo service FileServerLinux start
 echo -e "\e[32m Configurando o Apache2 \e[0m"
 sudo a2dissite 000-default.conf
 sudo cp ./Configs/Apache2/ProxyReverse.conf /etc/apache2/sites-available/
