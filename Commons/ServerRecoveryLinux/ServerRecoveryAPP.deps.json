@@ -9,7 +9,7 @@
       "ServerRecoveryAPP/3.7.6": {
         "dependencies": {
           "CommonSynchronousSocket": "4.0.0",
-          "DataModelCore": "4.0.2",
+          "DataModelCore": "4.0.3",
           "EnvironmentLibrary": "4.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.11",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.11",
@@ -224,7 +224,7 @@
       },
       "CommonSynchronousSocket/4.0.0": {
         "dependencies": {
-          "DataModelCore": "4.0.2",
+          "DataModelCore": "4.0.3",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.14",
           "Microsoft.EntityFrameworkCore": "7.0.11",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.11"
@@ -233,7 +233,7 @@
           "CommonSynchronousSocket.dll": {}
         }
       },
-      "DataModelCore/4.0.2": {
+      "DataModelCore/4.0.3": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.14",
           "RedisLibrary": "4.0.0"
@@ -502,7 +502,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DataModelCore/4.0.2": {
+    "DataModelCore/4.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
