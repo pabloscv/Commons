@@ -405,7 +405,7 @@
         "dependencies": {
           "CommonServiceLibrary": "4.0.0",
           "ContextCommonInterface": "4.0.0",
-          "DataModelCore": "4.0.3",
+          "DataModelCore": "4.0.5",
           "RedisLibrary": "4.0.0"
         },
         "runtime": {
@@ -414,7 +414,7 @@
       },
       "CaptchaLibrary/4.0.0": {
         "dependencies": {
-          "DataModelCore": "4.0.3",
+          "DataModelCore": "4.0.5",
           "RedisLibrary": "4.0.0",
           "System.Drawing.Common": "5.0.3"
         },
@@ -425,7 +425,7 @@
       "CommonServiceLibrary/4.0.0": {
         "dependencies": {
           "CaptchaLibrary": "4.0.0",
-          "DataModelCore": "4.0.3",
+          "DataModelCore": "4.0.5",
           "RedisLibrary": "4.0.0"
         },
         "runtime": {
@@ -434,7 +434,7 @@
       },
       "CommonSynchronousSocket/4.0.0": {
         "dependencies": {
-          "DataModelCore": "4.0.3",
+          "DataModelCore": "4.0.5",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.14",
           "Microsoft.EntityFrameworkCore": "7.0.14",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.14"
@@ -445,7 +445,7 @@
       },
       "ContextCommonInterface/4.0.0": {
         "dependencies": {
-          "DataModelCore": "4.0.3",
+          "DataModelCore": "4.0.5",
           "Microsoft.EntityFrameworkCore": "7.0.14",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.14"
         },
@@ -455,11 +455,11 @@
       },
       "Core7Boilerplate/4.0.9": {
         "dependencies": {
-          "DataModelCore": "4.0.3",
+          "DataModelCore": "4.0.5",
           "EnvironmentLibrary": "4.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.14",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.11",
-          "SwaggerBearer": "4.0.9",
+          "SwaggerBearer": "4.0.10",
           "Swashbuckle.AspNetCore.Swagger": "6.5.0",
           "Swashbuckle.AspNetCore.SwaggerGen": "6.5.0",
           "Swashbuckle.AspNetCore.SwaggerUI": "6.5.0"
@@ -470,13 +470,13 @@
       },
       "CryptographyCore/4.0.0": {
         "dependencies": {
-          "DataModelCore": "4.0.3"
+          "DataModelCore": "4.0.5"
         },
         "runtime": {
           "CryptographyCore.dll": {}
         }
       },
-      "DataModelCore/4.0.3": {
+      "DataModelCore/4.0.5": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.14",
           "RedisLibrary": "4.0.0"
@@ -511,7 +511,7 @@
         "dependencies": {
           "CommonServiceLibrary": "4.0.0",
           "CommonSynchronousSocket": "4.0.0",
-          "DataModelCore": "4.0.3",
+          "DataModelCore": "4.0.5",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.14",
           "Microsoft.EntityFrameworkCore": "7.0.14"
         },
@@ -519,9 +519,9 @@
           "ServerRecoveryClient.dll": {}
         }
       },
-      "SwaggerBearer/4.0.9": {
+      "SwaggerBearer/4.0.10": {
         "dependencies": {
-          "DataModelCore": "4.0.3",
+          "DataModelCore": "4.0.5",
           "EnvironmentLibrary": "4.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.11",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
@@ -907,7 +907,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DataModelCore/4.0.3": {
+    "DataModelCore/4.0.5": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -932,7 +932,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "SwaggerBearer/4.0.9": {
+    "SwaggerBearer/4.0.10": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
