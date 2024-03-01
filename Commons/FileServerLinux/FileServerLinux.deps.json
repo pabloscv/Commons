@@ -10,7 +10,7 @@
         "dependencies": {
           "AuthorizationClient": "4.0.0",
           "CommonSynchronousSocket": "4.0.0",
-          "ContextCommonInterface": "4.0.0",
+          "ContextCommonInterface": "4.0.1",
           "Core7Boilerplate": "4.0.13",
           "CryptographyCore": "4.0.0",
           "EnvironmentLibrary": "4.0.0",
@@ -404,7 +404,7 @@
       "AuthorizationClient/4.0.0": {
         "dependencies": {
           "CommonServiceLibrary": "4.0.0",
-          "ContextCommonInterface": "4.0.0",
+          "ContextCommonInterface": "4.0.1",
           "DataModelCore": "4.0.11",
           "RedisLibrary": "4.0.0"
         },
@@ -443,7 +443,7 @@
           "CommonSynchronousSocket.dll": {}
         }
       },
-      "ContextCommonInterface/4.0.0": {
+      "ContextCommonInterface/4.0.1": {
         "dependencies": {
           "DataModelCore": "4.0.11",
           "Microsoft.EntityFrameworkCore": "7.0.14",
@@ -892,7 +892,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ContextCommonInterface/4.0.0": {
+    "ContextCommonInterface/4.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
