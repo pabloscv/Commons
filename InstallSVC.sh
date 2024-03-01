@@ -46,9 +46,12 @@ sudo systemctl enable AuthorizationLinux.service
 sudo systemctl enable FileServerLinux.service
 echo -e "\e[32m Configurando o Apache2 \e[0m"
 sudo a2dissite 000-default.conf
-sudo cp ./Configs/Apache2/ProxyReverse.conf /etc/apache2/sites-available/
-sudo cp ./Configs/Apache2/FileReverse.conf /etc/apache2/sites-available/
-sudo cp ./Configs/Apache2/FrontEnd.conf /etc/apache2/sites-available/
+sudo rm -rf /etc/apache2/sites-available
+sudo cp -r ./Configs/Apache2 /etc/apache2/sites-available
+sudo rm -rf /etc/apache2/apache2.conf
+sudo rm -rf /etc/apache2/ports.conf
+sudo cp ./Configs/Apache2Config/apache2.conf /etc/apache2
+sudo cp ./Configs/Apache2Config/ports.conf /etc/apache2
 sudo a2ensite ProxyReverse.conf
 sudo a2ensite FileReverse.conf
 sudo a2ensite FrontEnd.conf
