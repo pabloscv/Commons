@@ -14,7 +14,7 @@
           "Core7Boilerplate": "4.0.13",
           "CryptographyCore": "4.0.0",
           "EnvironmentLibrary": "4.0.0",
-          "LinuxTaskLibrary": "4.0.1",
+          "LinuxTaskLibrary": "4.0.2",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.14",
           "Microsoft.EntityFrameworkCore": "7.0.14",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.14",
@@ -493,7 +493,7 @@
           "EnvironmentLibrary.dll": {}
         }
       },
-      "LinuxTaskLibrary/4.0.1": {
+      "LinuxTaskLibrary/4.0.2": {
         "runtime": {
           "LinuxTaskLibrary.dll": {}
         }
@@ -917,7 +917,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "LinuxTaskLibrary/4.0.1": {
+    "LinuxTaskLibrary/4.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
