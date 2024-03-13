@@ -214,7 +214,7 @@
       },
       "System.IO.Pipelines/5.0.1": {},
       "System.Security.Cryptography.Cng/4.5.0": {},
-      "DataModelCore/4.0.11": {
+      "DataModelCore/4.0.16": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.14",
           "RedisLibrary": "4.0.0"
@@ -242,7 +242,7 @@
       },
       "SwaggerBearer/4.0.11": {
         "dependencies": {
-          "DataModelCore": "4.0.11",
+          "DataModelCore": "4.0.16",
           "EnvironmentLibrary": "4.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.11",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
@@ -418,7 +418,7 @@
       "path": "system.security.cryptography.cng/4.5.0",
       "hashPath": "system.security.cryptography.cng.4.5.0.nupkg.sha512"
     },
-    "DataModelCore/4.0.11": {
+    "DataModelCore/4.0.16": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

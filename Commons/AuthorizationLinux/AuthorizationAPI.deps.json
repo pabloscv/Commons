@@ -14,12 +14,12 @@
           "ContextCommonInterface": "4.0.1",
           "Core7Boilerplate": "4.0.13",
           "CryptographyCore": "4.0.0",
-          "DataModelCore": "4.0.11",
+          "DataModelCore": "4.0.16",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.14",
           "Microsoft.EntityFrameworkCore": "7.0.14",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.14",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.11",
-          "SMTPServicesLibrary": "4.0.0",
+          "SMTPServicesLibrary": "4.0.1",
           "ServerRecoveryClient": "4.0.0"
         },
         "runtime": {
@@ -406,7 +406,7 @@
         "dependencies": {
           "CommonServiceLibrary": "4.0.0",
           "ContextCommonInterface": "4.0.1",
-          "DataModelCore": "4.0.11",
+          "DataModelCore": "4.0.16",
           "RedisLibrary": "4.0.0"
         },
         "runtime": {
@@ -415,7 +415,7 @@
       },
       "CaptchaLibrary/4.0.0": {
         "dependencies": {
-          "DataModelCore": "4.0.11",
+          "DataModelCore": "4.0.16",
           "RedisLibrary": "4.0.0",
           "System.Drawing.Common": "5.0.3"
         },
@@ -426,7 +426,7 @@
       "CommonServiceLibrary/4.0.0": {
         "dependencies": {
           "CaptchaLibrary": "4.0.0",
-          "DataModelCore": "4.0.11",
+          "DataModelCore": "4.0.16",
           "RedisLibrary": "4.0.0"
         },
         "runtime": {
@@ -435,7 +435,7 @@
       },
       "CommonSynchronousSocket/4.0.0": {
         "dependencies": {
-          "DataModelCore": "4.0.11",
+          "DataModelCore": "4.0.16",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.14",
           "Microsoft.EntityFrameworkCore": "7.0.14",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.14"
@@ -446,7 +446,7 @@
       },
       "ContextCommonInterface/4.0.1": {
         "dependencies": {
-          "DataModelCore": "4.0.11",
+          "DataModelCore": "4.0.16",
           "Microsoft.EntityFrameworkCore": "7.0.14",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.14"
         },
@@ -456,7 +456,7 @@
       },
       "Core7Boilerplate/4.0.13": {
         "dependencies": {
-          "DataModelCore": "4.0.11",
+          "DataModelCore": "4.0.16",
           "EnvironmentLibrary": "4.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.14",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.11",
@@ -471,13 +471,13 @@
       },
       "CryptographyCore/4.0.0": {
         "dependencies": {
-          "DataModelCore": "4.0.11"
+          "DataModelCore": "4.0.16"
         },
         "runtime": {
           "CryptographyCore.dll": {}
         }
       },
-      "DataModelCore/4.0.11": {
+      "DataModelCore/4.0.16": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.14",
           "RedisLibrary": "4.0.0"
@@ -494,7 +494,7 @@
           "EnvironmentLibrary.dll": {}
         }
       },
-      "LinuxTaskLibrary/4.0.0": {
+      "LinuxTaskLibrary/4.0.1": {
         "runtime": {
           "LinuxTaskLibrary.dll": {}
         }
@@ -512,7 +512,7 @@
         "dependencies": {
           "CommonServiceLibrary": "4.0.0",
           "CommonSynchronousSocket": "4.0.0",
-          "DataModelCore": "4.0.11",
+          "DataModelCore": "4.0.16",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.14",
           "Microsoft.EntityFrameworkCore": "7.0.14"
         },
@@ -520,9 +520,9 @@
           "ServerRecoveryClient.dll": {}
         }
       },
-      "SMTPServicesLibrary/4.0.0": {
+      "SMTPServicesLibrary/4.0.1": {
         "dependencies": {
-          "LinuxTaskLibrary": "4.0.0"
+          "LinuxTaskLibrary": "4.0.1"
         },
         "runtime": {
           "SMTPServicesLibrary.dll": {}
@@ -530,7 +530,7 @@
       },
       "SwaggerBearer/4.0.11": {
         "dependencies": {
-          "DataModelCore": "4.0.11",
+          "DataModelCore": "4.0.16",
           "EnvironmentLibrary": "4.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.11",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
@@ -916,7 +916,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DataModelCore/4.0.11": {
+    "DataModelCore/4.0.16": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -926,7 +926,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "LinuxTaskLibrary/4.0.0": {
+    "LinuxTaskLibrary/4.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -941,7 +941,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "SMTPServicesLibrary/4.0.0": {
+    "SMTPServicesLibrary/4.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

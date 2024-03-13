@@ -9,12 +9,12 @@
       "ServerRecoveryAPP/3.7.6": {
         "dependencies": {
           "CommonSynchronousSocket": "4.0.0",
-          "DataModelCore": "4.0.11",
+          "DataModelCore": "4.0.16",
           "EnvironmentLibrary": "4.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.11",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.11",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.3",
-          "SMTPServicesLibrary": "4.0.0"
+          "SMTPServicesLibrary": "4.0.1"
         },
         "runtime": {
           "ServerRecoveryAPP.dll": {}
@@ -224,7 +224,7 @@
       },
       "CommonSynchronousSocket/4.0.0": {
         "dependencies": {
-          "DataModelCore": "4.0.11",
+          "DataModelCore": "4.0.16",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.14",
           "Microsoft.EntityFrameworkCore": "7.0.11",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.11"
@@ -233,7 +233,7 @@
           "CommonSynchronousSocket.dll": {}
         }
       },
-      "DataModelCore/4.0.11": {
+      "DataModelCore/4.0.16": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.14",
           "RedisLibrary": "4.0.0"
@@ -250,7 +250,7 @@
           "EnvironmentLibrary.dll": {}
         }
       },
-      "LinuxTaskLibrary/4.0.0": {
+      "LinuxTaskLibrary/4.0.1": {
         "runtime": {
           "LinuxTaskLibrary.dll": {}
         }
@@ -264,9 +264,9 @@
           "RedisLibrary.dll": {}
         }
       },
-      "SMTPServicesLibrary/4.0.0": {
+      "SMTPServicesLibrary/4.0.1": {
         "dependencies": {
-          "LinuxTaskLibrary": "4.0.0"
+          "LinuxTaskLibrary": "4.0.1"
         },
         "runtime": {
           "SMTPServicesLibrary.dll": {}
@@ -502,7 +502,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DataModelCore/4.0.11": {
+    "DataModelCore/4.0.16": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -512,7 +512,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "LinuxTaskLibrary/4.0.0": {
+    "LinuxTaskLibrary/4.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -522,7 +522,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "SMTPServicesLibrary/4.0.0": {
+    "SMTPServicesLibrary/4.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
