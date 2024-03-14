@@ -19,7 +19,7 @@
           "Microsoft.EntityFrameworkCore": "7.0.14",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.14",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.11",
-          "SMTPServicesLibrary": "4.0.2",
+          "SMTPServicesLibrary": "4.0.3",
           "ServerRecoveryClient": "4.0.0"
         },
         "runtime": {
@@ -520,7 +520,7 @@
           "ServerRecoveryClient.dll": {}
         }
       },
-      "SMTPServicesLibrary/4.0.2": {
+      "SMTPServicesLibrary/4.0.3": {
         "dependencies": {
           "LinuxTaskLibrary": "4.0.2"
         },
@@ -941,7 +941,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "SMTPServicesLibrary/4.0.2": {
+    "SMTPServicesLibrary/4.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
