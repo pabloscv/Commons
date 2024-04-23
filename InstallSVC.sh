@@ -14,6 +14,9 @@ sudo apt-get -y update
 sudo apt-get -y net-tools
 sudo apt-get -y libgdiplus
 clear
+echo -e "\e[32m Instalando Fontes do Captcha \e[0m"
+sudo apt install ttf-mscorefonts-installer
+clear
 echo -e "\e[32m Instalando Apache2 \e[0m"
 sudo apt-get -y install apache2
 sudo a2enmod headers
