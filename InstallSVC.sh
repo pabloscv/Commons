@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-sudo rm -rf /etc/systemd/system/ServerRecoveryLinux.service
+sudo rm -rf /etc/systemd/system/ServerRecoveryAdvanced.service
 sudo rm -rf /etc/systemd/system/AuthorizationLinux.service
 sudo rm -rf /etc/systemd/system/FileServerLinux.service
 echo -e "\e[32m Atualizando o sistema \e[0m"
@@ -40,11 +40,11 @@ sudo apt-get -y install ssmtp
 sudo rm -rf /etc/ssmtp/ssmtp.conf
 sudo cp ./ssmtp.conf /etc/ssmtp/
 echo -e "\e[32m Instalando Serviços \e[0m"
-sudo cp ./Configs/LinuxServices/ServerRecoveryLinux.service /etc/systemd/system/
+sudo cp ./Configs/LinuxServices/ServerRecoveryAdvanced.service /etc/systemd/system/
 sudo cp ./Configs/LinuxServices/AuthorizationLinux.service /etc/systemd/system/
 sudo cp ./Configs/LinuxServices/FileServerLinux.service /etc/systemd/system/
 echo -e "\e[32m Registrando Serviços \e[0m"
-sudo systemctl enable ServerRecoveryLinux.service
+sudo systemctl enable ServerRecoveryAdvanced.service
 sudo systemctl enable AuthorizationLinux.service
 sudo systemctl enable FileServerLinux.service
 echo -e "\e[32m Configurando o Apache2 \e[0m"
