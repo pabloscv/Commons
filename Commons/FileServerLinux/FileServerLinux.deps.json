@@ -6,12 +6,11 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "FileServerLinux/5.0.0": {
+      "FileServerLinux/5.0.2": {
         "dependencies": {
           "AuthorizationClient": "5.0.0",
-          "CommonSynchronousSocket": "5.0.0",
           "ContextCommonInterface": "5.0.0",
-          "CoreBoilerplate": "5.0.0",
+          "CoreBoilerplate": "5.0.1",
           "CryptographyCore": "5.0.0",
           "EnvironmentLibrary": "5.0.0",
           "LinuxTaskLibrary": "5.0.0",
@@ -19,7 +18,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2",
-          "ServerRecoveryClient": "5.0.0"
+          "ServerRecoveryClient": "5.0.2"
         },
         "runtime": {
           "FileServerLinux.dll": {}
@@ -498,7 +497,7 @@
         "dependencies": {
           "CommonServiceLibrary": "5.0.0",
           "ContextCommonInterface": "5.0.0",
-          "DataModelCore": "5.0.0",
+          "DataModelCore": "5.0.1",
           "RedisLibrary": "5.0.0"
         },
         "runtime": {
@@ -507,7 +506,7 @@
       },
       "CaptchaLibrary/5.0.1": {
         "dependencies": {
-          "DataModelCore": "5.0.0",
+          "DataModelCore": "5.0.1",
           "RedisLibrary": "5.0.0",
           "SixLaborsCaptcha.Core": "1.0.0"
         },
@@ -518,27 +517,16 @@
       "CommonServiceLibrary/5.0.0": {
         "dependencies": {
           "CaptchaLibrary": "5.0.1",
-          "DataModelCore": "5.0.0",
+          "DataModelCore": "5.0.1",
           "RedisLibrary": "5.0.0"
         },
         "runtime": {
           "CommonServiceLibrary.dll": {}
         }
       },
-      "CommonSynchronousSocket/5.0.0": {
-        "dependencies": {
-          "DataModelCore": "5.0.0",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.4",
-          "Microsoft.EntityFrameworkCore": "8.0.4",
-          "Microsoft.EntityFrameworkCore.Relational": "8.0.4"
-        },
-        "runtime": {
-          "CommonSynchronousSocket.dll": {}
-        }
-      },
       "ContextCommonInterface/5.0.0": {
         "dependencies": {
-          "DataModelCore": "5.0.0",
+          "DataModelCore": "5.0.1",
           "Microsoft.EntityFrameworkCore": "8.0.4",
           "Microsoft.EntityFrameworkCore.Relational": "8.0.4"
         },
@@ -546,13 +534,13 @@
           "ContextCommonInterface.dll": {}
         }
       },
-      "CoreBoilerplate/5.0.0": {
+      "CoreBoilerplate/5.0.1": {
         "dependencies": {
-          "DataModelCore": "5.0.0",
+          "DataModelCore": "5.0.1",
           "EnvironmentLibrary": "5.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2",
-          "SwaggerBearer": "5.0.0",
+          "SwaggerBearer": "5.0.1",
           "Swashbuckle.AspNetCore.Swagger": "6.5.0",
           "Swashbuckle.AspNetCore.SwaggerGen": "6.5.0",
           "Swashbuckle.AspNetCore.SwaggerUI": "6.5.0"
@@ -563,13 +551,13 @@
       },
       "CryptographyCore/5.0.0": {
         "dependencies": {
-          "DataModelCore": "5.0.0"
+          "DataModelCore": "5.0.1"
         },
         "runtime": {
           "CryptographyCore.dll": {}
         }
       },
-      "DataModelCore/5.0.0": {
+      "DataModelCore/5.0.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.4",
           "RedisLibrary": "5.0.0"
@@ -600,21 +588,22 @@
           "RedisLibrary.dll": {}
         }
       },
-      "ServerRecoveryClient/5.0.0": {
+      "ServerRecoveryClient/5.0.2": {
         "dependencies": {
           "CommonServiceLibrary": "5.0.0",
-          "CommonSynchronousSocket": "5.0.0",
-          "DataModelCore": "5.0.0",
+          "DataModelCore": "5.0.1",
+          "EnvironmentLibrary": "5.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.4",
-          "Microsoft.EntityFrameworkCore": "8.0.4"
+          "Microsoft.EntityFrameworkCore": "8.0.4",
+          "WebLink": "5.0.0"
         },
         "runtime": {
           "ServerRecoveryClient.dll": {}
         }
       },
-      "SwaggerBearer/5.0.0": {
+      "SwaggerBearer/5.0.1": {
         "dependencies": {
-          "DataModelCore": "5.0.0",
+          "DataModelCore": "5.0.1",
           "EnvironmentLibrary": "5.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.4",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
@@ -627,11 +616,20 @@
         "runtime": {
           "SwaggerBearer.dll": {}
         }
+      },
+      "WebLink/5.0.0": {
+        "dependencies": {
+          "DataModelCore": "5.0.1",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.4"
+        },
+        "runtime": {
+          "WebLink.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "FileServerLinux/5.0.0": {
+    "FileServerLinux/5.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1106,17 +1104,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CommonSynchronousSocket/5.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "ContextCommonInterface/5.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "CoreBoilerplate/5.0.0": {
+    "CoreBoilerplate/5.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1126,7 +1119,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DataModelCore/5.0.0": {
+    "DataModelCore/5.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1146,12 +1139,17 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ServerRecoveryClient/5.0.0": {
+    "ServerRecoveryClient/5.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SwaggerBearer/5.0.0": {
+    "SwaggerBearer/5.0.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebLink/5.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
