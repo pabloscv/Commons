@@ -11,7 +11,7 @@
           "AuthorizationClient": "5.0.0",
           "CaptchaLibrary": "5.0.1",
           "ContextCommonInterface": "5.0.0",
-          "CoreBoilerplate": "5.0.1",
+          "CoreBoilerplate": "5.0.2",
           "CryptographyCore": "5.0.0",
           "DataModelCore": "5.0.1",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.4",
@@ -536,7 +536,7 @@
           "ContextCommonInterface.dll": {}
         }
       },
-      "CoreBoilerplate/5.0.1": {
+      "CoreBoilerplate/5.0.2": {
         "dependencies": {
           "DataModelCore": "5.0.1",
           "EnvironmentLibrary": "5.0.0",
@@ -597,7 +597,7 @@
           "EnvironmentLibrary": "5.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.4",
           "Microsoft.EntityFrameworkCore": "8.0.4",
-          "WebLink": "5.0.0"
+          "WebLink": "5.0.1"
         },
         "runtime": {
           "ServerRecoveryClient.dll": {}
@@ -627,7 +627,7 @@
           "SwaggerBearer.dll": {}
         }
       },
-      "WebLink/5.0.0": {
+      "WebLink/5.0.1": {
         "dependencies": {
           "DataModelCore": "5.0.1",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.4"
@@ -1119,7 +1119,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CoreBoilerplate/5.0.1": {
+    "CoreBoilerplate/5.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1164,7 +1164,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "WebLink/5.0.0": {
+    "WebLink/5.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
