@@ -19,7 +19,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "8.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2",
           "SMTPServicesLibrary": "5.0.0",
-          "ServerRecoveryClient": "5.0.2",
+          "ServerRecoveryClient": "5.0.6",
           "SwaggerBearer": "5.0.1"
         },
         "runtime": {
@@ -590,14 +590,14 @@
           "RedisLibrary.dll": {}
         }
       },
-      "ServerRecoveryClient/5.0.2": {
+      "ServerRecoveryClient/5.0.6": {
         "dependencies": {
           "CommonServiceLibrary": "5.0.0",
           "DataModelCore": "5.0.1",
           "EnvironmentLibrary": "5.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.4",
           "Microsoft.EntityFrameworkCore": "8.0.4",
-          "WebLink": "5.0.1"
+          "WebLink": "5.0.3"
         },
         "runtime": {
           "ServerRecoveryClient.dll": {}
@@ -627,7 +627,7 @@
           "SwaggerBearer.dll": {}
         }
       },
-      "WebLink/5.0.1": {
+      "WebLink/5.0.3": {
         "dependencies": {
           "DataModelCore": "5.0.1",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.4"
@@ -1149,7 +1149,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ServerRecoveryClient/5.0.2": {
+    "ServerRecoveryClient/5.0.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1164,7 +1164,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "WebLink/5.0.1": {
+    "WebLink/5.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

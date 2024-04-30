@@ -23,7 +23,7 @@
           "Swashbuckle.AspNetCore.Swagger": "6.5.0",
           "Swashbuckle.AspNetCore.SwaggerGen": "6.5.0",
           "Swashbuckle.AspNetCore.SwaggerUI": "6.5.0",
-          "WebLink": "5.0.1"
+          "WebLink": "5.0.3"
         },
         "runtime": {
           "ServerRecoveryAdvanced.dll": {}
@@ -555,7 +555,7 @@
           "SwaggerBearer.dll": {}
         }
       },
-      "WebLink/5.0.1": {
+      "WebLink/5.0.3": {
         "dependencies": {
           "DataModelCore": "5.0.1",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.4"
@@ -1058,7 +1058,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "WebLink/5.0.1": {
+    "WebLink/5.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
