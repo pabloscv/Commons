@@ -38,11 +38,11 @@ sudo apt-get -y install postgresql
 echo -e "\e[32m Instalando SSMTP \e[0m"
 sudo apt-get -y install ssmtp
 sudo rm -rf /etc/ssmtp/ssmtp.conf
-sudo cp ./ssmtp.conf /etc/ssmtp/
+sudo cp ssmtp.conf /etc/ssmtp/
 echo -e "\e[32m Instalando Serviços \e[0m"
-sudo cp ./Configs/LinuxServices/ServerRecoveryAdvanced.service /etc/systemd/system/
-sudo cp ./Configs/LinuxServices/AuthorizationLinux.service /etc/systemd/system/
-sudo cp ./Configs/LinuxServices/FileServerLinux.service /etc/systemd/system/
+sudo cp ../Configs/LinuxServices/ServerRecoveryAdvanced.service /etc/systemd/system/
+sudo cp ../Configs/LinuxServices/AuthorizationLinux.service /etc/systemd/system/
+sudo cp ../Configs/LinuxServices/FileServerLinux.service /etc/systemd/system/
 echo -e "\e[32m Registrando Serviços \e[0m"
 sudo systemctl enable ServerRecoveryAdvanced.service
 sudo systemctl enable AuthorizationLinux.service
@@ -50,11 +50,11 @@ sudo systemctl enable FileServerLinux.service
 echo -e "\e[32m Configurando o Apache2 \e[0m"
 sudo a2dissite 000-default.conf
 sudo rm -rf /etc/apache2/sites-available
-sudo cp -r ./Configs/Apache2 /etc/apache2/sites-available
+sudo cp -r ../Configs/Apache2 /etc/apache2/sites-available
 sudo rm -rf /etc/apache2/apache2.conf
 sudo rm -rf /etc/apache2/ports.conf
-sudo cp ./Configs/Apache2Config/apache2.conf /etc/apache2
-sudo cp ./Configs/Apache2Config/ports.conf /etc/apache2
+sudo cp ../Configs/Apache2Config/apache2.conf /etc/apache2
+sudo cp ../Configs/Apache2Config/ports.conf /etc/apache2
 sudo a2ensite ProxyReverse.conf
 sudo a2ensite FileReverse.conf
 sudo a2ensite FrontEnd.conf
