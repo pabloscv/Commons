@@ -34,4 +34,4 @@ jobs:
         sudo cp /var/publish/Configs/AuthorizationLinux/appsettings.json /var/publish/Commons/AuthorizationLinux/appsettings.json
         sudo cp /var/publish/Configs/FileServerLinux/appsettings.json /var/publish/Commons/FileServerLinux/appsettings.json 
         sudo cp /var/publish/Configs/ServerRecoveryAdvanced/appsettings.json /var/publish/Commons/ServerRecoveryAdvanced/appsettings.json 
-        sudo rm -rf /home/eddiezane/actions-runner4/_work/Commons
+        sudo rm -rf /home/eddiezane/actions-runner4/_work/Commons/Commons
