@@ -34,6 +34,6 @@ jobs:
         sudo cp /var/publish/Configs/AuthorizationLinux/appsettings.json /var/publish/Commons/AuthorizationLinux/appsettings.json
         sudo cp /var/publish/Configs/FileServerLinux/appsettings.json /var/publish/Commons/FileServerLinux/appsettings.json 
         sudo cp /var/publish/Configs/ServerRecoveryAdvanced/appsettings.json /var/publish/Commons/ServerRecoveryAdvanced/appsettings.json 
-        sudo service ServerRecoveryAdvanced.service restart
-        sudo service FileServerLinux.service restart
-        sudo service AuthorizationLinux.service restart
+        sudo service ServerRecoveryAdvanced restart
+        sudo service FileServerLinux restart
+        sudo service AuthorizationLinux restart
