@@ -6,20 +6,20 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "AuthorizationAPI/5.0.2": {
+      "AuthorizationAPI/5.0.3": {
         "dependencies": {
           "AuthorizationClient": "5.0.0",
           "CaptchaLibrary": "5.0.1",
           "ContextCommonInterface": "5.0.0",
-          "CoreBoilerplate": "5.0.2",
+          "CoreBoilerplate": "5.0.3",
           "CryptographyCore": "5.0.0",
-          "DataModelCore": "5.0.3",
+          "DataModelCore": "5.0.4",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.4",
           "Microsoft.EntityFrameworkCore": "8.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2",
           "SMTPServicesLibrary": "5.0.0",
-          "ServerRecoveryClient": "5.0.7",
+          "ServerRecoveryClient": "5.0.8",
           "SwaggerBearer": "5.0.1"
         },
         "runtime": {
@@ -499,7 +499,7 @@
         "dependencies": {
           "CommonServiceLibrary": "5.0.0",
           "ContextCommonInterface": "5.0.0",
-          "DataModelCore": "5.0.3",
+          "DataModelCore": "5.0.4",
           "RedisLibrary": "5.0.0"
         },
         "runtime": {
@@ -508,7 +508,7 @@
       },
       "CaptchaLibrary/5.0.1": {
         "dependencies": {
-          "DataModelCore": "5.0.3",
+          "DataModelCore": "5.0.4",
           "RedisLibrary": "5.0.0",
           "SixLaborsCaptcha.Core": "1.0.0"
         },
@@ -519,7 +519,7 @@
       "CommonServiceLibrary/5.0.0": {
         "dependencies": {
           "CaptchaLibrary": "5.0.1",
-          "DataModelCore": "5.0.3",
+          "DataModelCore": "5.0.4",
           "RedisLibrary": "5.0.0"
         },
         "runtime": {
@@ -528,7 +528,7 @@
       },
       "ContextCommonInterface/5.0.0": {
         "dependencies": {
-          "DataModelCore": "5.0.3",
+          "DataModelCore": "5.0.4",
           "Microsoft.EntityFrameworkCore": "8.0.4",
           "Microsoft.EntityFrameworkCore.Relational": "8.0.4"
         },
@@ -536,9 +536,9 @@
           "ContextCommonInterface.dll": {}
         }
       },
-      "CoreBoilerplate/5.0.2": {
+      "CoreBoilerplate/5.0.3": {
         "dependencies": {
-          "DataModelCore": "5.0.3",
+          "DataModelCore": "5.0.4",
           "EnvironmentLibrary": "5.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2",
@@ -553,13 +553,13 @@
       },
       "CryptographyCore/5.0.0": {
         "dependencies": {
-          "DataModelCore": "5.0.3"
+          "DataModelCore": "5.0.4"
         },
         "runtime": {
           "CryptographyCore.dll": {}
         }
       },
-      "DataModelCore/5.0.3": {
+      "DataModelCore/5.0.4": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.4",
           "RedisLibrary": "5.0.0"
@@ -590,14 +590,14 @@
           "RedisLibrary.dll": {}
         }
       },
-      "ServerRecoveryClient/5.0.7": {
+      "ServerRecoveryClient/5.0.8": {
         "dependencies": {
           "CommonServiceLibrary": "5.0.0",
-          "DataModelCore": "5.0.3",
+          "DataModelCore": "5.0.4",
           "EnvironmentLibrary": "5.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.4",
           "Microsoft.EntityFrameworkCore": "8.0.4",
-          "WebLink": "5.0.5"
+          "WebLink": "5.0.6"
         },
         "runtime": {
           "ServerRecoveryClient.dll": {}
@@ -613,7 +613,7 @@
       },
       "SwaggerBearer/5.0.1": {
         "dependencies": {
-          "DataModelCore": "5.0.3",
+          "DataModelCore": "5.0.4",
           "EnvironmentLibrary": "5.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.4",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
@@ -627,9 +627,9 @@
           "SwaggerBearer.dll": {}
         }
       },
-      "WebLink/5.0.5": {
+      "WebLink/5.0.6": {
         "dependencies": {
-          "DataModelCore": "5.0.3",
+          "DataModelCore": "5.0.4",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.4"
         },
         "runtime": {
@@ -639,7 +639,7 @@
     }
   },
   "libraries": {
-    "AuthorizationAPI/5.0.2": {
+    "AuthorizationAPI/5.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1119,7 +1119,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CoreBoilerplate/5.0.2": {
+    "CoreBoilerplate/5.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1129,7 +1129,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DataModelCore/5.0.3": {
+    "DataModelCore/5.0.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1149,7 +1149,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ServerRecoveryClient/5.0.7": {
+    "ServerRecoveryClient/5.0.8": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1164,7 +1164,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "WebLink/5.0.5": {
+    "WebLink/5.0.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
