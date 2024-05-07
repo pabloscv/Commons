@@ -22,10 +22,10 @@ jobs:
         sudo rm -rf /var/publish/Commons/AuthorizationLinux
         sudo rm -rf /var/publish/Commons/FileServerLinux
         sudo rm -rf /var/publish/Commons/ServerRecoveryAdvanced
-        sudo mv /home/eddiezane/actions-runner-commons/_work/Commons/Commons/AuthorizationJWTLinux /var/publish/Commons/AuthorizationJWTLinux
-        sudo mv /home/eddiezane/actions-runner-commons/_work/Commons/Commons/AuthorizationLinux /var/publish/Commons/AuthorizationLinux
-        sudo mv /home/eddiezane/actions-runner-commons/_work/Commons/Commons/FileServerLinux /var/publish/Commons/FileServerLinux
-        sudo mv /home/eddiezane/actions-runner-commons/_work/Commons/Commons/ServerRecoveryAdvanced /var/publish/Commons/ServerRecoveryAdvanced
+        sudo mv /home/eddiezane/actions-runner-commons/_work/Commons/Commons/Commons/AuthorizationJWTLinux /var/publish/Commons/AuthorizationJWTLinux
+        sudo mv /home/eddiezane/actions-runner-commons/_work/Commons/Commons/Commons/AuthorizationLinux /var/publish/Commons/AuthorizationLinux
+        sudo mv /home/eddiezane/actions-runner-commons/_work/Commons/Commons/Commons/FileServerLinux /var/publish/Commons/FileServerLinux
+        sudo mv /home/eddiezane/actions-runner-commons/_work/Commons/Commons/Commons/ServerRecoveryAdvanced /var/publish/Commons/ServerRecoveryAdvanced
         sudo rm -rf /var/publish/Commons/AuthorizationJWTLinux/appsettings.json 
         sudo rm -rf /var/publish/Commons/AuthorizationLinux/appsettings.json 
         sudo rm -rf /var/publish/Commons/FileServerLinux/appsettings.json 
