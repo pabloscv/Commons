@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: [ "LisVirtual" ]
+    runs-on: SrvLisVirtual
 
     steps:
     - uses: actions/checkout@v3
