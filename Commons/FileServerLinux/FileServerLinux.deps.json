@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "FileServerLinux/5.0.3": {
+      "FileServerLinux/5.0.4": {
         "dependencies": {
           "AuthorizationClient": "5.0.0",
           "ContextCommonInterface": "5.0.0",
@@ -18,7 +18,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2",
-          "ServerRecoveryClient": "5.0.8"
+          "ServerRecoveryClient": "5.0.9"
         },
         "runtime": {
           "FileServerLinux.dll": {}
@@ -588,14 +588,14 @@
           "RedisLibrary.dll": {}
         }
       },
-      "ServerRecoveryClient/5.0.8": {
+      "ServerRecoveryClient/5.0.9": {
         "dependencies": {
           "CommonServiceLibrary": "5.0.0",
           "DataModelCore": "5.0.4",
           "EnvironmentLibrary": "5.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.4",
           "Microsoft.EntityFrameworkCore": "8.0.4",
-          "WebLink": "5.0.6"
+          "WebLink": "5.0.7"
         },
         "runtime": {
           "ServerRecoveryClient.dll": {}
@@ -617,7 +617,7 @@
           "SwaggerBearer.dll": {}
         }
       },
-      "WebLink/5.0.6": {
+      "WebLink/5.0.7": {
         "dependencies": {
           "DataModelCore": "5.0.4",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.4"
@@ -629,7 +629,7 @@
     }
   },
   "libraries": {
-    "FileServerLinux/5.0.3": {
+    "FileServerLinux/5.0.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1139,7 +1139,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ServerRecoveryClient/5.0.8": {
+    "ServerRecoveryClient/5.0.9": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1149,7 +1149,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "WebLink/5.0.6": {
+    "WebLink/5.0.7": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
