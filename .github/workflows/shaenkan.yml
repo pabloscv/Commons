@@ -1,0 +1,39 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: Shaenkan-Workflow
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: SrvShaenkan
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Create Signal
+      run: |
+        sudo rm -rf /var/publish/Commons/AuthorizationJWTLinux
+        sudo rm -rf /var/publish/Commons/AuthorizationLinux
+        sudo rm -rf /var/publish/Commons/FileServerLinux
+        sudo rm -rf /var/publish/Commons/ServerRecoveryAdvanced
+        sudo mv /home/eddiezane/actions-runner-commons/_work/Commons/Commons/Commons/AuthorizationJWTLinux /var/publish/Commons/AuthorizationJWTLinux
+        sudo mv /home/eddiezane/actions-runner-commons/_work/Commons/Commons/Commons/AuthorizationLinux /var/publish/Commons/AuthorizationLinux
+        sudo mv /home/eddiezane/actions-runner-commons/_work/Commons/Commons/Commons/FileServerLinux /var/publish/Commons/FileServerLinux
+        sudo mv /home/eddiezane/actions-runner-commons/_work/Commons/Commons/Commons/ServerRecoveryAdvanced /var/publish/Commons/ServerRecoveryAdvanced
+        sudo rm -rf /var/publish/Commons/AuthorizationJWTLinux/appsettings.json 
+        sudo rm -rf /var/publish/Commons/AuthorizationLinux/appsettings.json 
+        sudo rm -rf /var/publish/Commons/FileServerLinux/appsettings.json 
+        sudo rm -rf /var/publish/Commons/ServerRecoveryAdvanced/appsettings.json 
+        sudo cp /var/publish/Configs/AuthorizationJWTLinux/appsettings.json /var/publish/Commons/AuthorizationJWTLinux/appsettings.json 
+        sudo cp /var/publish/Configs/AuthorizationLinux/appsettings.json /var/publish/Commons/AuthorizationLinux/appsettings.json
+        sudo cp /var/publish/Configs/FileServerLinux/appsettings.json /var/publish/Commons/FileServerLinux/appsettings.json 
+        sudo cp /var/publish/Configs/ServerRecoveryAdvanced/appsettings.json /var/publish/Commons/ServerRecoveryAdvanced/appsettings.json 
+        sudo service ServerRecoveryAdvanced restart
+        sudo service FileServerLinux restart
+        sudo service AuthorizationLinux restart
