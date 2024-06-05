@@ -495,7 +495,7 @@
       "System.Threading.Channels/6.0.0": {},
       "AuthorizationClient/5.0.0": {
         "dependencies": {
-          "CommonServiceLibrary": "5.0.0",
+          "CommonServiceLibrary": "5.0.1",
           "ContextCommonInterface": "5.0.0",
           "DataModelCore": "5.0.4",
           "RedisLibrary": "5.0.0"
@@ -514,7 +514,7 @@
           "CaptchaLibrary.dll": {}
         }
       },
-      "CommonServiceLibrary/5.0.0": {
+      "CommonServiceLibrary/5.0.1": {
         "dependencies": {
           "CaptchaLibrary": "5.0.1",
           "DataModelCore": "5.0.4",
@@ -590,7 +590,7 @@
       },
       "ServerRecoveryClient/5.0.9": {
         "dependencies": {
-          "CommonServiceLibrary": "5.0.0",
+          "CommonServiceLibrary": "5.0.1",
           "DataModelCore": "5.0.4",
           "EnvironmentLibrary": "5.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.4",
@@ -1099,7 +1099,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CommonServiceLibrary/5.0.0": {
+    "CommonServiceLibrary/5.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
