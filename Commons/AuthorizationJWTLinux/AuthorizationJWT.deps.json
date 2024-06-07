@@ -239,7 +239,7 @@
           "DataModelCore.dll": {}
         }
       },
-      "EnvironmentLibrary/5.1.0": {
+      "EnvironmentLibrary/5.1.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.4"
         },
@@ -259,7 +259,7 @@
       "SwaggerBearer/5.0.1": {
         "dependencies": {
           "DataModelCore": "5.0.5",
-          "EnvironmentLibrary": "5.1.0",
+          "EnvironmentLibrary": "5.1.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.4",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
           "Microsoft.OpenApi": "1.6.14",
@@ -446,7 +446,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "EnvironmentLibrary/5.1.0": {
+    "EnvironmentLibrary/5.1.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
